@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    Adopt Minion List
+	Combine Minion List
+    Made By (Aion-Unique)
+ -->
+<minions_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="item_minions_list.xsd">
+	<!-- Adopt Minion List -->
+	<minion_list id="1" name="Adopt Minion [Grade D]" minion_id="980010"/>
+    <minion_list id="2" name="Adopt Minion [Grade C]" minion_id="980011 980020 980030"/>
+    <minion_list id="3" name="Adopt Minion [Grade B]" minion_id="980012 980040 980050 980074 980078"/>
+    <minion_list id="4" name="Adopt Minion [Grade A]" minion_id="980013 980060 980070 980082 980086 980090"/>
+	<minion_list id="5" name="Adopt Minion [Grade B-A]" minion_id="980012 980040 980050 980074 980078 980013 980060 980070 980082 980086 980090"/>
+	<minion_list id="6" name="Grade A [Arch Kerubiel]" minion_id="980013"/>
+	<minion_list id="7" name="Grade B [Kerubiel]" minion_id="980012"/>
+	<minion_list id="8" name="Grade A [Sheba]" minion_id="980070 980071 980072 980073"/>
+	<minion_list id="9" name="Grade A [Modor]" minion_id="980060 980061 980062 980063"/>
+	
+	<!-- Combine Minion List -->
+    <minion_list id="30" name="Combine Minion [Grade C]" minion_id="980020 980030"/>
+    <minion_list id="31" name="Combine Minion [Grade B]" minion_id="980040 980050 980074 980078"/>
+    <minion_list id="32" name="Combine Minion [Grade A]" minion_id="980060 980070 980082 980086 980090"/>
+	<minion_list id="33" name="Grade D [Kerubim]" minion_id="980010"/>
+	<minion_list id="34" name="Grade C [Kerubian]" minion_id="980011"/>
+	<minion_list id="35" name="Grade B [Kerubiel]" minion_id="980012"/>
+	<minion_list id="36" name="Grade A [Arch Kerubiel]" minion_id="980013"/>
+</minions_list>

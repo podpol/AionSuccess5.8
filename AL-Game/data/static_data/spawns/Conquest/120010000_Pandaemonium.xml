@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	The Shugo Emperor's Vault 4.7.5
+	Emperor Trillirunerk's Safe 4.9.1
+	Smoldering Fire Temple 5.1
+	Kumuki Cave 5.3
+	IDEvent_Def 5.6
+	Tiamaranta's Eye 5.8
+ -->
+<spawns>
+    <spawn_map map_id="120010000">
+		<!-- [The Shugo Emperor's Vault 4.7.5] -->
+		<conquest_spawn id="7">
+			<conquest_type ostate="CONQUEST">
+				<!-- The Shugo Emperor's Vault -->
+				<spawn npc_id="832920">
+				    <spot x="1275.4172" y="1341.2452" z="204.42003" h="90"/>
+				</spawn>
+				<!-- Indinerk Jonakak -->
+				<spawn npc_id="832921">
+				    <spot x="1275.3762" y="1338.1615" z="204.42003" h="90"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [Emperor Trillirunerk's Safe 4.9.1] -->
+		<conquest_spawn id="8">
+			<conquest_type ostate="CONQUEST">
+				<!-- Emperor Trillirunerk's Safe -->
+				<spawn npc_id="833737">
+				    <spot x="1275.4172" y="1341.2452" z="204.42003" h="90"/>
+				</spawn>
+				<!-- Indinerk Jonakak -->
+				<spawn npc_id="832921">
+				    <spot x="1275.3762" y="1338.1615" z="204.42003" h="90"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [Smoldering Fire Temple 5.1] -->
+		<conquest_spawn id="9">
+			<conquest_type ostate="CONQUEST">
+				<!-- Annaerunerk
+				<Smoldering Fire Temple> -->
+				<spawn npc_id="834161">
+				    <spot x="1275.4172" y="1341.2452" z="204.42003" h="90"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [Kumuki Cave 5.3] -->
+		<conquest_spawn id="10">
+			<conquest_type ostate="CONQUEST">
+				<!-- Gretel The Mischievous -->
+			    <spawn npc_id="835094">
+				    <spot h="88" z="204.42003" y="1339.8142" x="1277.6816"/>
+				</spawn>
+			    <!-- Porglet -->
+				<spawn npc_id="835118">
+				    <spot h="74" z="204.41998" y="1337.5128" x="1275.1464"/>
+				</spawn>
+				<!-- Carriage To The Kumuki Cave -->
+				<spawn npc_id="835115">
+				    <spot x="1275.4172" y="1341.2452" z="204.42003" h="90"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [IDEvent_Def 5.6] -->
+		<conquest_spawn id="12">
+			<conquest_type ostate="CONQUEST">
+			    <!-- IDEVENT_Def_DC1_Entrance_D -->
+				<spawn npc_id="836131">
+				    <spot h="89" z="204.41998" y="1338.2858" x="1272.9"/>
+				</spawn>
+				<!-- IDEvent_Def_In_NPC -->
+				<spawn npc_id="836141">
+				    <spot x="1275.4172" y="1341.2452" z="204.42003" h="90"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [Tiamaranta's Eye 5.8] -->
+		<conquest_spawn id="14">
+			<conquest_type ostate="CONQUEST">
+				<!-- TDown_Start_D -->
+				<spawn npc_id="836442">
+				    <spot h="17" z="204.41998" y="1308.9122" x="1253.3878"/>
+				</spawn>
+				<!-- DC1_Verbenk_E -->
+				<spawn npc_id="836454">
+				    <spot h="9" z="204.41998" y="1312.1409" x="1249.3536"/>
+				</spawn>
+				<!-- TDown_M_Start_D -->
+				<spawn npc_id="836444">
+				    <spot h="42" z="204.42003" y="1309.153" x="1298.435"/>
+				</spawn>
+				<!-- DC1_Verbenk_M_E -->
+				<spawn npc_id="836455">
+				    <spot h="53" z="204.42003" y="1312.3767" x="1302.5267"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+    </spawn_map>
+</spawns>

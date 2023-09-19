@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guides xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="guide.xsd">
+	<guide title="Twin_Gift_Level_11" level="11" race="PC_ALL" rewardCount="2">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 11"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+        <reward_info>Hold the Ctrl key to select 2 reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+        <survey itemId="188057152" count="1"/>
+		<survey itemId="188057153" count="1"/>
+    </guide>
+    <guide title="Twin_Gift_Level_14" level="14" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 14"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057154" count="1"/>
+    </guide>
+	<guide title="Twin_Gift_Level_18" level="18" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 18"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+        <survey itemId="188057155" count="1"/>
+    </guide>
+    <guide title="Twin_Gift_Level_22" level="22" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 22"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+        <reward_info>Please take this reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057156" count="1"/>
+    </guide>
+    <guide title="Twin_Gift_Level_24" level="24" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 24"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+        <reward_info>Please take this reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057157" count="1"/>
+    </guide>
+    <guide title="Twin_Gift_Level_28" level="28" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 28"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057158" count="1"/>
+    </guide>
+    <guide title="Twin_Gift_Level_32" level="32" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 32"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057159" count="1"/>
+    </guide>
+	<guide title="Twin_Gift_Level_38" level="38" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 38"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057160" count="1"/>
+    </guide>
+	<guide title="Twin_Gift_Level_43" level="43" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 43"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057161" count="1"/>
+    </guide>
+	<guide title="Twin_Gift_Level_49" level="49" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 49"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057162" count="1"/>
+    </guide>
+	<guide title="Twin_Gift_Level_53" level="53" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 53"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057163" count="1"/>
+    </guide>
+	<guide title="Twin_Gift_Level_59" level="59" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 59"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057164" count="1"/>
+    </guide>
+	<guide title="Twin_Gift_Level_62" level="62" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 62"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057165" count="1"/>
+    </guide>
+	<guide title="Twin_Gift_Level_65" level="65" race="PC_ALL" rewardCount="1">
+        <message>
+			<![CDATA[<font size ="6" color="CC6600">[Event] Twin's Gift Level 65</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+        </message>
+		<reward_info>Please take this reward.</reward_info>
+        <select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188057166" count="1"/>
+    </guide>
+	
+	<!-- ArchDaeva -->
+	<guide title="adventurers_guide68" level="68" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="CC6600">ArchDaeva Guide"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+		</message>
+		<reward_info>Hold the Ctrl key to select 2 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188053623" count="1"/>
+		<survey itemId="188055180" count="1"/>
+	</guide>
+	<guide title="adventurers_guide70" level="70" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="CC6600">ArchDaeva Guide"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+		</message>
+		<reward_info>Hold the Ctrl key to select 3 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166022003" count="2"/>
+		<survey itemId="166030005" count="2"/>
+		<survey itemId="169610166" count="1"/>
+	</guide>
+	<guide title="adventurers_guide75" level="75" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="CC6600">ArchDaeva Guide"</font>
+			<BR><BR>
+			Congratulations!
+			<br><br>]]>
+		</message>
+		<reward_info>Hold the Ctrl key to select 5 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188054830" count="1"/>
+		<survey itemId="187060203" count="1"/>
+		<survey itemId="166022003" count="4"/>
+		<survey itemId="166030005" count="4"/>
+		<survey itemId="169610167" count="1"/>
+	</guide>
+	
+	<!-- Guide Base -->
+	<guide title="adventurers_base1" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Adventurer's Base"</font>
+			<BR><BR>
+			Nearly there, friend. Destiny beckons just one more
+			step, and then a lifetime of opportunity will be
+			opened up to you! Balaurea... but no, you are not
+			there yet.
+			<Br><Br><Br><Br>
+			Keep struggling against our enemies. Fight harder
+			than ever before. Then you'll unlock everything.
+			Even access to the much lauded Miragent armor set.
+			<Br><Br><Br><Br>
+			Blood for blood!
+			<Br><Br><Br><Br>
+			~Admin
+			<br><br>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166060002" count="1"/> <!-- [자쿠룽] 스티그마 강화석 -->
+		<survey itemId="166032002" count="1"/> <!-- [자쿠룽] 초월한 각성수 -->
+		<survey itemId="186000030" count="1"/> <!-- Gold Medal -->
+		<survey itemId="186000031" count="1"/> <!-- Silver Medal -->
+		<survey itemId="186000096" count="1"/> <!-- Platinum Medal -->
+		<survey itemId="186000389" count="2"/> <!-- Arcade Token -->
+		<survey itemId="188055484" count="1"/> <!-- Small Luna Bundle -->
+		<survey itemId="162001077" count="1"/> <!-- Lodas’ Small Silver Star -->
+	</guide>
+	<guide title="adventurers_base2" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Adventurer's Base"</font>
+			<BR><BR>
+			The lush land of Levinshor belies a terrible secret,
+			for long ago it was Tiamat seat of power prior to her ascension as a dragon lord.
+			It had long been sealed away by a powerful barrier, but with Tiamat demise,
+			Beritra was able to dispel the barrier and take control of Levinshor for his own purposes.
+			Specifically, he desired the fruits of the Linkgate Foundry research.
+			Seeing Beritra troops on the move, the Elyos and Asmodian forces realized
+			the barrier must’ve been removed, and began their own incursions
+			<Br><Br><Br><Br>
+			Blood for blood!
+			<Br><Br><Br><Br>
+			~Admin
+			<br><br>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166060002" count="1"/> <!-- [자쿠룽] 스티그마 강화석 -->
+		<survey itemId="166032002" count="1"/> <!-- [자쿠룽] 초월한 각성수 -->
+		<survey itemId="186000147" count="1"/> <!-- Mithril Medal -->
+		<survey itemId="186000242" count="1"/> <!-- Ceramium Medal -->
+		<survey itemId="186000389" count="2"/> <!-- Arcade Token -->
+		<survey itemId="186000425" count="2"/> <!-- Mark Of Prophecy -->
+		<survey itemId="188055484" count="1"/> <!-- Small Luna Bundle -->
+		<survey itemId="162001062" count="1"/> <!-- Berdin's Lucky Star -->
+		<survey itemId="162001077" count="1"/> <!-- Lodas’ Small Silver Star -->
+		<survey itemId="165060002" count="1"/> <!-- [Event] Level Reduction Stone -->
+		<survey itemId="166020000" count="2"/> <!-- Omega Enchantment Stone -->
+		<survey itemId="166030005" count="2"/> <!-- Tempering Solution -->
+		<survey itemId="188100335" count="250"/> <!-- Enchantment Stone Dust -->
+		<survey itemId="186000414" count="2"/> <!-- Blood Medal -->
+		<survey itemId="188053564" count="1"/> <!-- Illusion Godstone Bundle -->
+		<survey itemId="188053617" count="1"/> <!-- Noble Tidal Idian Bundle -->
+		<survey itemId="188053576" count="1"/> <!-- [Detachment] Power Shard: +40 Bundle -->
+		<survey itemId="188053540" count="1"/> <!-- Supply Scroll Bundle -->
+	</guide>
+	<guide title="adventurers_base3" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Adventurer's Base"</font>
+			<BR><BR>
+			Still marching on, aren't we ? You've reached an
+			impressive milestone today, my friend. But as
+			before, the Asmodian does not dwell on what he has
+			done, but what there is to do. And there is plenty.
+			<Br><Br><Br><Br>
+			Panesterra was once the domain of the ancient Danuar.
+			The cataclysmic explosion that destroyed Kaldor was so powerful that the fabric of
+			reality was ripped apart, and Panesterra vanished into another dimension.
+			Desperate to return home, the Danuar that were pulled with it gathered as much Ide
+			as they could muster, but the plan backfired; instead of returning home,
+			the land bent and split, becoming nothing more than islands floating in a void.
+			Now, with the power of the Linkgate Foundry, Beritra has invaded Panesterra, intent on exploiting its secrets.
+			<Br><Br><Br><Br>
+			Panesterra sieges will be open periodically.
+			-Entrances become available in the Hall of Fame and Walk of Fame areas at the
+			appointed time and remain spawned for ten minutes, or until all spots are filled
+			<Br><Br><Br><Br>
+			As ever, I have something for you! Thank me later.
+			<Br><Br><Br><Br>
+			~Admin
+			<Br><BR>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166060002" count="1"/> <!-- [자쿠룽] 스티그마 강화석 -->
+		<survey itemId="166032002" count="1"/> <!-- [자쿠룽] 초월한 각성수 -->
+		<survey itemId="186000147" count="1"/> <!-- Mithril Medal -->
+		<survey itemId="186000242" count="1"/> <!-- Ceramium Medal -->
+		<survey itemId="186000389" count="2"/> <!-- Arcade Token -->
+		<survey itemId="186000425" count="4"/> <!-- Mark Of Prophecy -->
+		<survey itemId="188055484" count="1"/> <!-- Small Luna Bundle -->
+		<survey itemId="162001062" count="1"/> <!-- Berdin's Lucky Star -->
+		<survey itemId="162001077" count="1"/> <!-- Lodas’ Small Silver Star -->
+		<survey itemId="165060002" count="1"/> <!-- [Event] Level Reduction Stone -->
+		<survey itemId="166020000" count="4"/> <!-- Omega Enchantment Stone -->
+		<survey itemId="166030005" count="4"/> <!-- Tempering Solution -->
+		<survey itemId="188100335" count="500"/> <!-- Enchantment Stone Dust -->
+		<survey itemId="186000414" count="5"/> <!-- Blood Medal -->
+		<survey itemId="188053564" count="1"/> <!-- Illusion Godstone Bundle -->
+		<survey itemId="188053617" count="1"/> <!-- Noble Tidal Idian Bundle -->
+		<survey itemId="188053576" count="1"/> <!-- [Detachment] Power Shard: +40 Bundle -->
+		<survey itemId="188053540" count="1"/> <!-- Supply Scroll Bundle -->
+		<survey itemId="186000393" count="8"/> <!-- Honorable Ceramium Medal -->
+		<survey itemId="186000223" count="8"/> <!-- Honorable Mithril Medal -->
+	</guide>
+	
+	<!-- VIP Benefits -->
+	<guide title="VIP_Benefits" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">VIP Benefits"</font>
+			<BR><BR>
+			On behalf of the entire server staff, enjoy the rewards.
+			<Br><Br><Br><Br>
+			Please recommend & vote us!!!
+			<Br><Br><Br><Br>
+			~Admin
+			<Br><BR>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166060002" count="2"/> <!-- [자쿠룽] 스티그마 강화석 -->
+		<survey itemId="166032002" count="2"/> <!-- [자쿠룽] 초월한 각성수 -->
+		<survey itemId="188055484" count="1"/> <!-- Small Luna Bundle -->
+		<survey itemId="162001062" count="1"/> <!-- Berdin's Lucky Star -->
+		<survey itemId="162001077" count="1"/> <!-- Lodas’ Small Silver Star -->
+		<survey itemId="190080005" count="5"/> <!-- Lesser Minion Contract -->
+		<survey itemId="190200000" count="50"/> <!-- Minium -->
+	</guide>
+	
+	<!-- ArchDaeva Benefits -->
+	<guide title="ArchDaeva_Benefits" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">ArchDaeva Benefits"</font>
+			<BR><BR>
+			Greetings, you are a ArchDaeva. The time has come to spread your wings even further
+			and explore Atreia. So I will do my best to help you as you travel these lands.
+			Take this with you & help it is a gift of sorts for your
+			journey. May Atreia's light protect you & help and illuminate your past.
+			<Br><Br><Br><Br>
+			Please recommend & vote us!!!
+			<Br><Br><Br><Br>
+			~Admin
+			<Br><BR>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166060002" count="2"/> <!-- [자쿠룽] 스티그마 강화석 -->
+		<survey itemId="166032002" count="2"/> <!-- [자쿠룽] 초월한 각성수 -->
+		<survey itemId="186000425" count="2"/> <!-- Mark Of Prophecy -->
+		<survey itemId="188055485" count="1"/> <!-- Large Luna Bundle -->
+		<survey itemId="162001062" count="1"/> <!-- Berdin's Lucky Star -->
+		<survey itemId="162001077" count="1"/> <!-- Lodas’ Small Silver Star -->
+		<survey itemId="190080005" count="5"/> <!-- Lesser Minion Contract -->
+		<survey itemId="190200000" count="50"/> <!-- Minium -->
+	</guide>
+	
+	<!-- Berserk Anoha -->
+	<guide title="Berserk_Anoha" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Berserk Anoha"</font>
+			<BR><BR>
+			On behalf of the entire server staff, enjoy the rewards.
+			<Br><Br><Br><Br>
+			Please recommend & vote us!!!
+			<Br><Br><Br><Br>
+			~Admin
+			<Br><BR>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166060002" count="2"/> <!-- [자쿠룽] 스티그마 강화석 -->
+		<survey itemId="166032002" count="2"/> <!-- [자쿠룽] 초월한 각성수 -->
+		<survey itemId="186000147" count="1"/> <!-- Mithril Medal -->
+		<survey itemId="186000242" count="1"/> <!-- Ceramium Medal -->
+		<survey itemId="186000425" count="2"/> <!-- Mark Of Prophecy -->
+		<survey itemId="188055484" count="1"/> <!-- Small Luna Bundle -->
+		<survey itemId="162001062" count="1"/> <!-- Berdin's Lucky Star -->
+		<survey itemId="162001077" count="1"/> <!-- Lodas’ Small Silver Star -->
+		<survey itemId="165060002" count="1"/> <!-- [Event] Level Reduction Stone -->
+		<survey itemId="190200000" count="200"/> <!-- Minium -->
+		<survey itemId="188054603" count="1"/> <!-- Mysterious Commander's Accessory Box -->
+		<survey itemId="188054637" count="1"/> <!-- [Event] Commander Weapon Box -->
+		<survey itemId="188054638" count="1"/> <!-- [Event] Commander Armor Box -->
+	</guide>
+	
+	<!-- Conquest Offering -->
+	<guide title="Conquest_Offering" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Conquest Offering"</font>
+			<BR><BR>
+			Inggison and Gelkmaros Special Monsters:
+			<Br><Br><Br><Br>
+			New World Update brought new Insignia of Conquest system to Inggison, Gelkmaros.
+			Various monsters in Inggison and Gelkmaros will now drop Insignia of Conquest.
+			When facing offerings on opposite race's map players will receive additional compensation.
+			<Br><Br><Br><Br>
+			Insignia of Conquest monsters appear all over Inggison and Gelkmaros.
+			You can meet most of Insignia of Conquest monsters by simply walking through the filed but some offerings are in unaccessible areas.
+			- All Insignia of Conquest monsters are level 65. There are various types of offerings. Shulacks, animals, plants, etc.
+			- Offerings are much stronger than regular monsters.
+			<Br><Br><Br><Br>
+			When you kill an offering you will receive a guide containing "Conqueror's Mark Box".
+			By hunting monsters on opposite race's map players may receive additional compensation such as Battle Medals.
+			<Br><Br><Br><Br>
+			Also, after killing an Insignia of Conquest monster there is a chance you will receive a temporary buff
+			or a portal leading to a next offering will appear.
+			<Br><Br><Br><Br>
+			Proof of Conquest Exchange:
+			<Br><Br><Br><Br>
+			Insignias can be exchanged at the Inggison Illusion Fortress and Gelkmaros Fortress.
+			You can exchanged them for Mythical equipment, Wings, Mounts and other valuable items.
+			<Br><Br><Br><Br>
+			~Admin
+			<Br><BR>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188053690" count="1"/> <!-- Inggison Greater Conqueror's Mark Box -->
+		<survey itemId="188053693" count="1"/> <!-- Gelkmaros Greater Conqueror's Mark Box -->
+	</guide>
+	
+	<!-- Agent Fight -->
+	<guide title="Agent_Fight" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Agent Fight"</font>
+			<BR><BR>
+			Governors final battle unfolds in Levinshor:
+			<Br><Br><Br><Br>
+			Elyos and Asmodian Governors are awakening in Levinshor.
+			Each agent is advancing towards each other in the centre of Levinshor [Flameberth Downs].
+			Help your Governor and be rewarded with Honour Points and awesome equipment items.
+			<Br><Br><Br><Br>
+			- Asmodian and Elyos forces will emerge around the central garrison.
+			- Win and you shall be reworded with Honour Points and new equipment items.
+			- The central garrison is going to be automatically captured.
+			<Br><Br><Br><Br>
+			REWARDS:
+			Among rewards for helping your Governor are Honour Points and parts of the Ascended Agent's Set. 
+			<Br><Br><Br><Br>
+			LOOT:
+			- Killing your opposite faction's Governor rewards you with Honour Points.
+			- Governors drop parts of the Ascended Agent's Set.
+			<Br><Br><Br><Br>
+			Delegate Agent's Set:
+			Governors drop parts of the Delegate Agent's Set
+			- Items from this set can be Soul Bound and have a very unique appearance.
+			- Cloth, Leather, Chain and Plate items look precisely the same.
+			<Br><Br><Br><Br>
+			~Admin
+			<Br><BR>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166060002" count="2"/> <!-- [자쿠룽] 스티그마 강화석 -->
+		<survey itemId="166032002" count="2"/> <!-- [자쿠룽] 초월한 각성수 -->
+		<survey itemId="186000147" count="1"/> <!-- Mithril Medal -->
+		<survey itemId="186000242" count="1"/> <!-- Ceramium Medal -->
+		<survey itemId="186000425" count="2"/> <!-- Mark Of Prophecy -->
+		<survey itemId="188055484" count="1"/> <!-- Small Luna Bundle -->
+		<survey itemId="162001062" count="1"/> <!-- Berdin's Lucky Star -->
+		<survey itemId="162001077" count="1"/> <!-- Lodas’ Small Silver Star -->
+		<survey itemId="190200000" count="200"/> <!-- Minium -->
+		<survey itemId="165060002" count="1"/> <!-- [Event] Level Reduction Stone -->
+		<survey itemId="188054248" count="1"/> <!-- [Event] Delegate's Plate Armor Box -->
+		<survey itemId="188054249" count="1"/> <!-- [Event] Delegate's Chain Armor Box -->
+		<survey itemId="188054250" count="1"/> <!-- [Event] Delegate's Leather Armor Box -->
+		<survey itemId="188054251" count="1"/> <!-- [Event] Delegate's Cloth Armor Box -->
+	</guide>
+	
+	<!-- Brigade General's Urgent Order [RVR 4.9.1] -->
+	<guide title="Rvr_Guide" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="5" color="FFB732">Brigade General's Urgent Order"</font>
+			<BR><BR>
+			Assemble "Legion Medal Center Piece +
+			Legion Medal Left Piece + Legion Medal Right Piece"
+			for form a "Legion Medal"
+			<Br><Br><Br><Br>
+			Exchange "Legion Medal" to Npc Trader (Heiron/Beluslan)
+			when "Brigade General's Urgent Order" is active.
+			<Br><Br><Br><Br>
+			Good luck daeva!
+			<Br><Br><Br><Br>
+			~Admin
+			<br><br>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="188100297" count="1"/> <!-- Legion Medal Center Piece -->
+		<survey itemId="188100298" count="1"/> <!-- Legion Medal Left Piece -->
+		<survey itemId="188100299" count="1"/> <!-- Legion Medal Right Piece -->
+	</guide>
+	
+	<!-- http://event2.ncsoft.jp/1.0/aion/1503awake/ -->
+	<guide title="Event_Awake_10" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Awake Event"</font>
+			<BR><BR>
+			On behalf of the entire server staff, enjoy the rewards.
+			<Br><Br><Br><Br>
+			Please recommend & vote us!!!
+			<Br><Br><Br><Br>
+			~Server staff
+			<Br><BR>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="160010352" count="1"/> <!-- Seed Of Transformation -->
+		<survey itemId="160010353" count="1"/> <!-- Seed Of Transformation -->
+	</guide>
+	<guide title="Event_Awake_65" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Awake Event"</font>
+			<BR><BR>
+			On behalf of the entire server staff, enjoy the rewards.
+			<Br><Br><Br><Br>
+			Please recommend & vote us!!!
+			<Br><Br><Br><Br>
+			~Server staff
+			<Br><BR>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="160010356" count="1"/> <!-- Violet Seed Of Transformation -->
+		<survey itemId="160010357" count="1"/> <!-- Violet Seed Of Transformation -->
+	</guide>
+	
+	<!-- Zorshiv Dredgion Guide -->
+	<guide title="Dredgion_Guide" level="1" race="PC_ALL" rewardCount="1">
+		<message>
+			<![CDATA[<font size ="6" color="FFB732">Zorshiv Dredgion Guide"</font>
+			<BR><BR>
+			Nearly there, friend. Destiny beckons just one more
+			step, and then a lifetime of opportunity will be
+			opened up to you! ArchDaeva... but no, you are not
+			there yet.
+			<Br><Br><Br><Br>
+			Keep struggling against our enemies. Fight harder
+			than ever before. Then you'll unlock everything.
+			<Br><Br><Br><Br>
+			Please recommend & vote us!!!
+			<Br><Br><Br><Br>
+			~Server staff
+			<br><br>]]>
+		</message>
+		<reward_info>Please select 1 reward.</reward_info>
+		<select>Have Fun and Enjoy on IA!</select>
+		<survey itemId="166060002" count="2"/> <!-- [자쿠룽] 스티그마 강화석 -->
+		<survey itemId="166032002" count="2"/> <!-- [자쿠룽] 초월한 각성수 -->
+		<survey itemId="186000147" count="1"/> <!-- Mithril Medal -->
+		<survey itemId="186000242" count="1"/> <!-- Ceramium Medal -->
+		<survey itemId="186000425" count="2"/> <!-- Mark Of Prophecy -->
+		<survey itemId="188055484" count="1"/> <!-- Small Luna Bundle -->
+		<survey itemId="162001062" count="1"/> <!-- Berdin's Lucky Star -->
+		<survey itemId="162001077" count="1"/> <!-- Lodas’ Small Silver Star -->
+		<survey itemId="165060002" count="1"/> <!-- [Event] Level Reduction Stone -->
+		<survey itemId="190200000" count="200"/> <!-- Minium -->
+		<survey itemId="188055157" count="1"/> <!-- Mystery Special Functionary's Divine Weapon Box -->
+		<survey itemId="188055158" count="1"/> <!-- Mystery Special Functionary's Divine Armor Box -->
+	</guide>
+</guides>

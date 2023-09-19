@@ -1,0 +1,82 @@
+/*
+ * =====================================================================================*
+ * This file is part of Aion-Unique (Aion-Unique Home Software Development)             *
+ * Aion-Unique Development is a closed Aion Project that use Old Aion Project Base      *
+ * Like Aion-Lightning, Aion-Engine, Aion-Core, Aion-Extreme, Aion-NextGen, ArchSoft,   *
+ * Aion-Ger, U3J, Encom And other Aion project, All Credit Content                      *
+ * That they make is belong to them/Copyright is belong to them. And All new Content    *
+ * that Aion-Unique make the copyright is belong to Aion-Unique                         *
+ * You may have agreement with Aion-Unique Development, before use this Engine/Source   *
+ * You have agree with all of Term of Services agreement with Aion-Unique Development   *
+ * =====================================================================================*
+ */
+package ai.worlds.reshanta.worldBoss.enragedGuardian;
+
+import ai.AggressiveNpcAI2;
+import com.aionemu.commons.network.util.ThreadPoolManager;
+import com.aionemu.gameserver.ai2.AI2Actions;
+import com.aionemu.gameserver.ai2.AIName;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.knownlist.Visitor;
+
+/****/
+/** Author Ghostfur & Unknown (Aion-Unique)
+/****/
+
+@AIName("Ab1_BossNamed_60_03_Al")
+public class Enraged_Eastern_GuardianAI2 extends AggressiveNpcAI2
+{
+	@Override
+	protected void handleAttack(Creature creature) {
+		super.handleAttack(creature);
+	}
+	
+	@Override
+    protected void handleSpawned() {
+        super.handleSpawned();
+		startLifeTask();
+		announceAb1NamedAppears();
+    }
+	
+	private void startLifeTask() {
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				World.getInstance().doOnAllPlayers(new Visitor<Player>() {
+			        @Override
+			        public void visit(Player player) {
+						AI2Actions.deleteOwner(Enraged_Eastern_GuardianAI2.this);
+						//Enraged Eastern Guardian has disappeared.
+						PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_Ab1_BossNamed_65_Al_Despawn_03);
+			        }
+				});
+			}
+		}, 3600000); //1Hr.
+	}
+	
+	private void announceAb1NamedAppears() {
+		World.getInstance().doOnAllPlayers(new Visitor<Player>() {
+			@Override
+			public void visit(Player player) {
+				//Siel's Eastern Guardian has appeared.
+				PacketSendUtility.playerSendPacketTime(player, SM_SYSTEM_MESSAGE.STR_MSG_Ab1_Named_Spawn_In_03, 0);
+			}
+		});
+	}
+	
+	@Override
+	protected void handleDied() {
+		World.getInstance().doOnAllPlayers(new Visitor<Player>() {
+			@Override
+			public void visit(Player player) {
+				//Enraged Eastern Guardian has been defeated.
+				PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_Ab1_BossNamed_65_Al_Die_03);
+			}
+		});
+		super.handleDied();
+	}
+}

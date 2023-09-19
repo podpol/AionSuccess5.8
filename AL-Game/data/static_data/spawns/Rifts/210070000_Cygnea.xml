@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Volatile Rift 시그니아 4.8
+	Made By (Aion-Unique)
+ -->
+<spawns>
+	<spawn_map map_id="210070000">
+		<!-- Rift -->
+		<spawn npc_id="700137" handler="RIFT">
+		    <spot x="2669.0242" y="438.01553" z="576.44300" anchor="CYGNEA_AM"/>
+		    <spot x="1695.2113" y="118.30494" z="541.34860" anchor="CYGNEA_BM"/>
+		    <spot x="780.76843" y="1797.6338" z="457.70422" anchor="CYGNEA_CM"/>
+		    <spot x="2108.6462" y="1445.7365" z="428.34204" anchor="CYGNEA_DM"/>
+		    <spot x="1928.2786" y="2594.9610" z="315.02524" anchor="CYGNEA_EM"/>
+		    <spot x="783.88990" y="2369.2110" z="296.66055" anchor="CYGNEA_FM"/>
+		    <spot x="2674.3784" y="592.28790" z="555.33340" anchor="CYGNEA_AS"/>
+		    <spot x="1814.7332" y="306.04382" z="556.33890" anchor="CYGNEA_BS"/>
+		    <spot x="347.00986" y="1513.1348" z="458.63156" anchor="CYGNEA_CS"/>
+		    <spot x="1969.6664" y="1219.6482" z="439.87613" anchor="CYGNEA_DS"/>
+		    <spot x="2181.1685" y="2428.1775" z="297.47020" anchor="CYGNEA_ES"/>
+		    <spot x="420.22183" y="2435.8315" z="268.76385" anchor="CYGNEA_FS"/>
+		</spawn>
+		<!-- Volatile Rift -->
+		<spawn npc_id="702723" handler="VOLATILE_RIFT">
+			<spot x="423.68884" y="861.77814" z="415.61945" anchor="CYGNEA_GM"/>
+			<spot x="2911.7507" y="2899.1367" z="270.23444" anchor="CYGNEA_HM"/>
+			<spot x="1990.0380" y="1688.9974" z="195.12500" anchor="CYGNEA_IM"/>
+			<spot x="404.48602" y="413.61750" z="414.00000" anchor="CYGNEA_GS"/>
+			<spot x="2736.0444" y="2074.6597" z="242.66900" anchor="CYGNEA_HS"/>
+			<spot x="1359.5742" y="2211.3206" z="186.94678" anchor="CYGNEA_IS"/>
+		</spawn>
+		
+		<!-- [Black Fins Canyon] -->
+        <rift_spawn id="2286">
+		    <!-- Third Ironlightian Deity General
+			<Third Expedition Defense Base> -->
+		    <spawn npc_id="236035" respawn_time="295">
+		        <spot x="513.61615" y="1157.6727" z="477.06842" h="90"/>
+		    </spawn>
+		    <!-- Third Ironlight
+			<Third Expedition Defense Base> -->
+		    <spawn npc_id="236036" respawn_time="295">
+			    <spot x="501.20474" y="1124.4391" z="478.72626" h="81"/>
+		        <spot x="523.7734" y="1119.7025" z="478.20752" h="86"/>
+		        <spot x="499.5348" y="1193.6252" z="477.32593" h="29"/>
+		        <spot x="535.4549" y="1190.3026" z="476.76517" h="37"/>
+		    </spawn>
+		    <!-- Third Sunblade
+			<Third Expedition Defense Base> -->
+		    <spawn npc_id="236037" respawn_time="295">
+		        <spot x="516.5958" y="1118.448" z="477.19946" h="86"/>
+		        <spot x="507.36188" y="1119.6229" z="477.0562" h="86"/>
+		        <spot x="523.4659" y="1192.074" z="476.86575" h="29"/>
+		        <spot x="509.10452" y="1192.7931" z="476.95044" h="29"/>
+		    </spawn>
+		    <!-- Third Sunmage
+			<Third Expedition Defense Base> -->
+		    <spawn npc_id="236038" respawn_time="295">
+		        <spot x="510.30264" y="1178.0759" z="477.70743" h="29"/>
+		        <spot x="518.73505" y="1134.2648" z="478.27936" h="90"/>
+		    </spawn>
+		    <!-- Third Dawnrunner
+			<Third Expedition Defense Base> -->
+		    <spawn npc_id="236039" respawn_time="295">
+		        <spot x="527.8118" y="1127.1235" z="479.75" h="68"/>
+		        <spot x="492.4766" y="1135.4263" z="478.5478" h="110"/>
+		        <spot x="552.12933" y="1192.73" z="474.60504" h="22"/>
+		        <spot x="485.3298" y="1195.1722" z="476.75" h="20"/>
+		    </spawn>
+		    <!-- Third Brighteye
+			<Third Expedition Defense Base> -->
+		    <spawn npc_id="236040" respawn_time="295">
+		        <spot x="557.6909" y="1177.572" z="486.40805" h="49"/>
+		        <spot x="542.01733" y="1142.2638" z="487.03003" h="88"/>
+		        <spot x="523.1465" y="1141.061" z="486.40005" h="77"/>
+		        <spot x="526.2418" y="1170.0242" z="487.02878" h="39"/>
+		        <spot x="505.3937" y="1171.8483" z="487.0288" h="19"/>
+		        <spot x="502.2755" y="1143.2113" z="486.40005" h="109"/>
+		        <spot x="481.9052" y="1148.6166" z="487.03003" h="89"/>
+		        <spot x="476.45154" y="1186.2339" z="486.40805" h="9"/>
+		    </spawn>
+		    <!-- Third Lightbinder
+			<Third Expedition Defense Base> -->
+		    <spawn npc_id="236041" respawn_time="295">
+		        <spot x="522.9893" y="1176.8461" z="477.7061" h="26"/>
+		        <spot x="506.8991" y="1135.8608" z="478.1376" h="90"/>
+		    </spawn>
+			<!-- Gatorback Skilex
+			The Skilex that inhabit Black Fin Canyon.
+			Easily recognized by the hard, spiky shell on their backs -->
+		    <spawn npc_id="235829" respawn_time="295">
+			    <spot x="335.24197" y="392.99677" z="419.1258" h="98" random_walk="3"/>
+			    <spot x="348.47208" y="363.48953" z="420.9434" h="105" random_walk="3"/>
+			    <spot x="371.05225" y="393.44617" z="414.30923" h="16" random_walk="3"/>
+			    <spot x="333.0941" y="469.18213" z="414.95996" h="0" random_walk="3"/>
+			    <spot x="364.88318" y="457.88913" z="414.25766" h="115" random_walk="3"/>
+			    <spot x="337.76294" y="349.63986" z="426.625" h="103" random_walk="3"/>
+			    <spot x="329.3799" y="249.34209" z="426.04514" h="101" random_walk="3"/>
+			    <spot x="366.58087" y="256.94778" z="420.72675" h="6" random_walk="3"/>
+			    <spot x="346.80154" y="229.24147" z="424.5" h="94" random_walk="3"/>
+			    <spot x="385.22086" y="232.49931" z="423.1874" h="12" random_walk="3"/>
+			    <spot x="411.0461" y="225.58276" z="415.5224" h="103" random_walk="3"/>
+			    <spot x="418.6671" y="297.86447" z="419.94983" h="31" random_walk="3"/>
+			    <spot x="441.00748" y="289.20233" z="419.10138" h="109" random_walk="3"/>
+			    <spot x="473.8225" y="306.07327" z="419.12234" h="21" random_walk="3"/>
+			    <spot x="541.3333" y="306.38882" z="414.96527" h="4" random_walk="3"/>
+			    <spot x="499.2467" y="363.69235" z="417.72214" h="20" random_walk="3"/>
+			    <spot x="483.09134" y="466.45547" z="418.51114" h="19" random_walk="3"/>
+			    <spot x="429.19528" y="371.31296" z="419.3544" h="116" random_walk="3"/>
+			    <spot x="495.44458" y="383.8137" z="419.375" h="110" random_walk="3"/>
+			    <spot x="506.4447" y="324.69977" z="417.46246" h="89" random_walk="3"/>
+			    <spot x="485.58652" y="290.78143" z="417.79883" h="49" random_walk="3"/>
+			    <spot x="402.10602" y="348.55637" z="419.625" h="17" random_walk="3"/>
+			    <spot x="280.76364" y="320.40793" z="431.3018" h="83" random_walk="3"/>
+			    <spot x="312.69092" y="266.53842" z="426.9474" h="17" random_walk="3"/>
+			    <spot x="455.82697" y="313.7943" z="418.1703" h="34" random_walk="3"/>
+			    <spot x="427.76282" y="440.07358" z="416.1296" h="51" random_walk="3"/>
+			    <spot x="412.8337" y="396.50052" z="414.8022" h="68" random_walk="3"/>
+			    <spot x="483.59946" y="422.37512" z="419.9032" h="34" random_walk="3"/>
+			</spawn>
+			<!-- Coral Corask
+			The Corasks that inhabit Black Fin Canyon.
+			They hide underground and attack unwary travelers -->
+		    <spawn npc_id="235831" respawn_time="295">
+			    <spot x="290.57953" y="805.48486" z="438.65744" h="76" random_walk="3"/>
+			    <spot x="317.14212" y="818.5361" z="439.73224" h="6" random_walk="3"/>
+			    <spot x="317.12018" y="876.9864" z="438.33334" h="41" random_walk="3"/>
+			    <spot x="352.82703" y="892.7923" z="440.2284" h="38" random_walk="3"/>
+			    <spot x="327.19962" y="917.5787" z="441.64996" h="49" random_walk="3"/>
+			    <spot x="360.27267" y="932.9119" z="443.73297" h="19" random_walk="3"/>
+			    <spot x="402.39697" y="958.8974" z="450.4311" h="15" random_walk="3"/>
+			    <spot x="366.86163" y="970.9969" z="446.03656" h="49" random_walk="3"/>
+			    <spot x="437.0471" y="974.30383" z="456.85342" h="28" random_walk="3"/>
+			    <spot x="443.0785" y="1016.97424" z="459.56082" h="32" random_walk="3"/>
+			    <spot x="474.94562" y="1027.6637" z="461.25" h="43" random_walk="3"/>
+			    <spot x="430.81265" y="1054.0586" z="456.9296" h="66" random_walk="3"/>
+			    <spot x="387.54404" y="1042.6097" z="458.28812" h="78" random_walk="3"/>
+			    <spot x="364.4004" y="1016.09155" z="454.41718" h="87" random_walk="3"/>
+			    <spot x="330.77316" y="944.8089" z="441.12054" h="63" random_walk="3"/>
+			    <spot x="327.5274" y="837.48694" z="439.09293" h="110" random_walk="3"/>
+			    <spot x="251.58704" y="839.4273" z="441.5634" h="33" random_walk="3"/>
+			    <spot x="263.2243" y="871.7611" z="442.48688" h="29" random_walk="3"/>
+			    <spot x="264.68573" y="946.6084" z="443.9668" h="53" random_walk="3"/>
+			    <spot x="300.69635" y="962.71454" z="440.46432" h="112" random_walk="3"/>
+			    <spot x="342.73642" y="994.31433" z="446.5919" h="104" random_walk="3"/>
+			    <spot x="415.72537" y="978.9429" z="451.76746" h="101" random_walk="3"/>
+			    <spot x="385.1773" y="932.30505" z="445.58203" h="90" random_walk="3"/>
+			    <spot x="344.5018" y="907.9637" z="441.37045" h="75" random_walk="3"/>
+			    <spot x="339.65842" y="857.9622" z="439.97156" h="84" random_walk="3"/>
+			    <spot x="307.64447" y="855.20337" z="437.61346" h="63" random_walk="3"/>
+			    <spot x="253.61876" y="896.2064" z="441.68747" h="36" random_walk="3"/>
+			    <spot x="243.81363" y="949.4729" z="443.3741" h="49" random_walk="3"/>
+			    <spot x="252.49684" y="975.46387" z="440.43958" h="35" random_walk="3"/>
+			    <spot x="284.2057" y="982.1603" z="441.01285" h="48" random_walk="3"/>
+			    <spot x="322.43765" y="978.07043" z="441.66116" h="108" random_walk="3"/>
+			    <spot x="350.79498" y="1028.802" z="457.3001" h="118" random_walk="3"/>
+			    <spot x="402.27112" y="1058.1462" z="458.11584" h="109" random_walk="3"/>
+			    <spot x="462.01297" y="997.9262" z="458.7329" h="118" random_walk="3"/>
+			    <spot x="417.15134" y="1007.12555" z="457.9691" h="64" random_walk="3"/>
+			    <spot x="386.15518" y="910.16614" z="443.84592" h="95" random_walk="3"/>
+			    <spot x="307.67334" y="797.2877" z="431.8027" h="111" random_walk="3"/>
+			    <spot x="221.09633" y="760.4175" z="441.3228" h="67" random_walk="3"/>
+			    <spot x="237.80183" y="797.1904" z="441.65073" h="14" random_walk="3"/>
+			    <spot x="276.23694" y="853.2067" z="436.76617" h="21" random_walk="3"/>
+			</spawn>
+        </rift_spawn>
+		
+        <!-- [Crystal Cave] -->
+        <rift_spawn id="2287">
+		    <!-- Seventh Ironlightian Deity General
+			<Seventh Expedition Defense Base> -->
+			<spawn npc_id="236055" respawn_time="295">
+			    <spot x="2550.9438" y="2931.0696" z="300.94183" h="53"/>
+			</spawn>
+			<!-- Seventh Ironlight
+			<Seventh Expedition Defense Base> -->
+			<spawn npc_id="236056" respawn_time="295">
+			    <spot x="2514.1655" y="2964.5972" z="301.48965" h="69"/>
+			    <spot x="2504.6948" y="2918.245" z="301.01532" h="21"/>
+			    <spot x="2484.1365" y="2888.789" z="301.20923" h="73"/>
+			    <spot x="2595.404" y="2898.1965" z="299.875" h="5"/>
+			    <spot x="2601.5679" y="2935.8284" z="299.48926" h="115"/>
+			</spawn>
+			<!-- Seventh Sunblade
+			<Seventh Expedition Defense Base> -->
+		    <spawn npc_id="236057" respawn_time="295">
+		        <spot x="2513.1973" y="2952.6824" z="301.80017" h="60"/>
+			    <spot x="2511.7332" y="2935.044" z="301.5819" h="52"/>
+			    <spot x="2491.4265" y="2916.4558" z="301.16083" h="46"/>
+			    <spot x="2482.1887" y="2906.383" z="301.8993" h="46"/>
+			    <spot x="2598.1355" y="2907.5288" z="298.9549" h="116"/>
+			    <spot x="2598.5593" y="2923.9448" z="297.29233" h="119"/>
+			</spawn>
+			<!-- Seventh Sunmage
+			<Seventh Expedition Defense Base> -->
+		    <spawn npc_id="236058" respawn_time="295">
+			    <spot x="2577.4885" y="2928.0027" z="298.12567" h="117"/>
+			    <spot x="2529.7766" y="2932.483" z="301.0" h="55"/>
+			</spawn>
+			<!-- Seventh Dawnrunner
+			<Seventh Expedition Defense Base> -->
+		    <spawn npc_id="236059" respawn_time="295">
+		        <spot x="2600.161" y="2947.6345" z="298.8622" h="116"/>
+			    <spot x="2580.4617" y="2893.1582" z="299.125" h="4"/>
+			    <spot x="2528.859" y="2972.909" z="301.9204" h="78"/>
+			    <spot x="2511.4358" y="2922.4565" z="301.02853" h="51"/>
+		    </spawn>
+		    <!-- Seventh Brighteye
+			<Seventh Expedition Defense Base> -->
+		    <spawn npc_id="236060" respawn_time="295">
+		        <spot x="2568.6548" y="2935.3406" z="309.0008" h="100"/>
+			    <spot x="2541.0415" y="2944.9075" z="309.62952" h="67"/>
+			    <spot x="2539.936" y="2980.8271" z="309.0088" h="54"/>
+			    <spot x="2514.187" y="2900.109" z="309.0088" h="34"/>
+			    <spot x="2552.6128" y="2898.723" z="309.63077" h="114"/>
+			    <spot x="2561.6145" y="2915.2883" z="309.0008" h="9"/>
+			    <spot x="2534.0945" y="2925.2568" z="309.62952" h="46"/>
+		    </spawn>
+		    <!-- Seventh Lightbinder
+			<Seventh Expedition Defense Base> -->
+		    <spawn npc_id="236061" respawn_time="295">
+		        <spot x="2576.0352" y="2915.9053" z="298.04297" h="117"/>
+    			<spot x="2534.4768" y="2943.2048" z="301.0" h="55"/>
+		    </spawn>
+		    <!-- Stygian Mist Warrior
+			A mutation resulting from the appearance of a Volatile Rift in Cygnea -->
+		    <spawn npc_id="235911" respawn_time="295">
+			    <spot x="2840.6699" y="2382.7676" z="226.17743" entity_id="879"/>
+			    <spot x="2877.4812" y="2779.8870" z="265.74338" entity_id="887"/>
+			    <spot x="2689.8765" y="2925.7798" z="287.75485" entity_id="889"/>
+			    <spot x="2764.6145" y="2906.5554" z="277.35770" entity_id="890"/>
+			    <spot x="2841.3965" y="2463.9834" z="226.67039" entity_id="891"/>
+			    <spot x="2765.3586" y="2637.8918" z="236.68477" entity_id="892"/>
+			    <spot x="2748.4907" y="2948.0195" z="277.45224" entity_id="893"/>
+			    <spot x="2745.7234" y="2582.7576" z="233.44835" entity_id="894"/>
+			    <spot x="2763.0273" y="2223.1875" z="231.72871" entity_id="895"/>
+			    <spot x="2740.9614" y="2254.2212" z="229.78224" entity_id="896"/>
+		    </spawn>
+		    <!-- Stygian Mist Protector
+			A mutation resulting from the appearance of a Volatile Rift in Cygnea -->
+		    <spawn npc_id="235913" respawn_time="295">
+			    <spot x="2812.0420" y="2922.3804" z="271.64554" entity_id="900"/>
+			    <spot x="2781.5908" y="2362.9446" z="223.28047" entity_id="901"/>
+			    <spot x="2918.0520" y="2045.8452" z="237.07307" entity_id="902"/>
+			    <spot x="2646.3806" y="2897.6836" z="295.19431" entity_id="903"/>
+			    <spot x="2937.9326" y="2803.1731" z="269.38840" entity_id="904"/>
+			    <spot x="2694.0867" y="2869.1633" z="284.62592" entity_id="1022"/>
+			    <spot x="2758.3271" y="2496.8562" z="228.57909" entity_id="1117"/>
+			    <spot x="2878.5962" y="2000.9650" z="239.39169" entity_id="1123"/>
+			    <spot x="2795.5376" y="2260.2869" z="230.48216" entity_id="1125"/>
+			    <spot x="2878.5313" y="2169.1846" z="230.41646" entity_id="1126"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Mist-Thorn Forest] -->
+        <rift_spawn id="2288">
+		    <!-- Sixth Ironlightian Deity General
+			<Sixth Expedition Defense Base> -->
+		    <spawn npc_id="236048" respawn_time="295">
+			    <spot x="2087.803" y="2004.2008" z="222.88731" h="11"/>
+		    </spawn>
+			<!-- Sixth Ironlight
+			<Sixth Expedition Defense Base> -->
+		    <spawn npc_id="236049" respawn_time="295">
+			    <spot x="2129.2207" y="2009.1913" z="224.05054" h="24"/>
+			    <spot x="2109.1765" y="2038.9518" z="224.80147" h="1"/>
+			    <spot x="2039.1318" y="1998.3375" z="221.09645" h="90"/>
+			    <spot x="2061.5981" y="1967.4863" z="220.7179" h="69"/>
+		    </spawn>
+			<!-- Sixth Sunblade
+			<Sixth Expedition Defense Base> -->
+		    <spawn npc_id="236050" respawn_time="295">
+			    <spot x="2120.7808" y="2017.893" z="223.51338" h="15"/>
+			    <spot x="2111.7266" y="2028.5264" z="223.45789" h="10"/>
+			    <spot x="2047.6503" y="1989.8394" z="220.85315" h="74"/>
+			    <spot x="2056.8389" y="1977.458" z="221.0" h="71"/>
+		    </spawn>
+			<!-- Sixth Sunmage
+			<Sixth Expedition Defense Base> -->
+		    <spawn npc_id="236051" respawn_time="295">
+			    <spot x="2060.2944" y="1997.9305" z="221.38907" h="71"/>
+			    <spot x="2101.6917" y="2022.4932" z="223.58092" h="11"/>
+		    </spawn>
+			<!-- Sixth Dawnrunner
+			<Sixth Expedition Defense Base> -->
+		    <spawn npc_id="236052" respawn_time="295">
+			    <spot x="2091.5225" y="2041.9207" z="226.62566" h="82"/>
+			    <spot x="2122.1433" y="1991.0189" z="226.62564" h="63"/>
+		    </spawn>
+			<!-- Sixth Brighteye
+			<Sixth Expedition Defense Base> -->
+		    <spawn npc_id="236053" respawn_time="295">
+			    <spot x="2068.1458" y="2005.7217" z="230.67862" h="89"/>
+			    <spot x="2093.2915" y="2020.655" z="231.30736" h="3"/>
+			    <spot x="2060.4426" y="2025.271" z="231.3086" h="70"/>
+			    <spot x="2046.0028" y="2028.7598" z="230.64911" h="91"/>
+			    <spot x="2088.8594" y="1958.3202" z="230.64911" h="51"/>
+			    <spot x="2091.5947" y="1973.6099" z="231.30861" h="71"/>
+			    <spot x="2079.0645" y="1987.9052" z="230.67863" h="59"/>
+			    <spot x="2104.1184" y="2002.891" z="231.30736" h="25"/>
+		    </spawn>
+			<!-- Sixth Lightbinder
+			<Sixth Expedition Defense Base> -->
+		    <spawn npc_id="236054" respawn_time="295">
+			    <spot x="2068.047" y="1984.9604" z="221.31297" h="71"/>
+			    <spot x="2108.808" y="2009.2935" z="223.59467" h="11"/>
+		    </spawn>
+		    <!-- Frosty Petrahulk
+			A mutation resulting from the appearance of a Volatile Rift in Cygnea -->
+		    <spawn npc_id="235915" respawn_time="295">
+			    <spot x="1287.817" y="2061.4158" z="162.36356" h="0" random_walk="3"/>
+			    <spot x="1316.2974" y="2031.9857" z="166.18433" h="51" random_walk="3"/>
+			    <spot x="1301.6406" y="2083.9727" z="162.8457" h="0" random_walk="3"/>
+			    <spot x="1341.8635" y="2051.4114" z="164.57358" h="56" random_walk="3"/>
+			    <spot x="1605.6986" y="2184.4182" z="167.42728" h="80" random_walk="3"/>
+			    <spot x="1635.6858" y="2157.389" z="167.24078" h="74" random_walk="3"/>
+			    <spot x="1571.7703" y="2156.5652" z="166.91032" h="3" random_walk="3"/>
+			    <spot x="1598.4736" y="2092.8835" z="170.73495" h="34" random_walk="3"/>
+			    <spot x="1538.2167" y="2201.5454" z="169.9305" h="5" random_walk="3"/>
+			    <spot x="1571.8007" y="2229.923" z="178.77011" h="91" random_walk="3"/>
+			    <spot x="1505.1132" y="2167.6257" z="164.18533" h="6" random_walk="3"/>
+			    <spot x="1535.4751" y="2113.6123" z="163.24142" h="11" random_walk="3"/>
+			    <spot x="1581.5126" y="2053.6052" z="173.75" h="38" random_walk="3"/>
+			    <spot x="1491.9501" y="2070.2126" z="155.02034" h="42" random_walk="3"/>
+			    <spot x="1435.997" y="2055.687" z="149.81613" h="18" random_walk="3"/>
+			    <spot x="1466.1432" y="2021.5723" z="148.75906" h="54" random_walk="3"/>
+			    <spot x="1464.1765" y="2116.5237" z="155.68454" h="3" random_walk="3"/>
+			    <spot x="1534.3408" y="2091.2236" z="168.38603" h="31" random_walk="3"/>
+			    <spot x="1657.5773" y="2074.0176" z="168.2522" h="82" random_walk="3"/>
+			    <spot x="1660.9885" y="2122.029" z="167.06035" h="74" random_walk="3"/>
+			    <spot x="1616.0656" y="2231.07" z="171.06223" h="100" random_walk="3"/>
+			</spawn>
+			<!-- Frostgullet Kirrin
+			A mutant resulting from the appearance of a Volatile Rift in Cygnea -->
+		    <spawn npc_id="235917" respawn_time="295">
+			    <spot x="1650.549" y="2303.1763" z="162.06866" h="65" random_walk="3"/>
+			    <spot x="1676.6617" y="2302.1072" z="162.6183" h="3" random_walk="3"/>
+			    <spot x="1689.201" y="2322.6284" z="162.45007" h="109" random_walk="3"/>
+			    <spot x="1664.7798" y="2340.5127" z="160.11417" h="59" random_walk="3"/>
+			    <spot x="1645.6008" y="2323.4214" z="159.54738" h="67" random_walk="3"/>
+			    <spot x="1757.5256" y="2196.9395" z="157.8308" h="14" random_walk="3"/>
+			    <spot x="1746.0164" y="2248.5903" z="164.33606" h="20" random_walk="3"/>
+			    <spot x="1718.5691" y="2282.0237" z="163.83499" h="20" random_walk="3"/>
+			    <spot x="1759.6555" y="2321.5479" z="165.34001" h="90" random_walk="3"/>
+			    <spot x="1789.257" y="2177.3826" z="153.55429" h="114" random_walk="3"/>
+			    <spot x="1787.283" y="2221.209" z="157.11575" h="90" random_walk="3"/>
+			    <spot x="1729.5868" y="2313.3843" z="163.4357" h="55" random_walk="3"/>
+			    <spot x="1695.7861" y="2350.3796" z="161.47627" h="43" random_walk="3"/>
+			    <spot x="1659.7163" y="2371.8777" z="156.5052" h="55" random_walk="3"/>
+			    <spot x="1636.5404" y="2341.6816" z="158.0199" h="81" random_walk="3"/>
+			    <spot x="1609.937" y="2308.3723" z="162.75865" h="95" random_walk="3"/>
+			    <spot x="1646.2172" y="2261.092" z="167.34991" h="28" random_walk="3"/>
+			    <spot x="1608.8579" y="2263.8977" z="169.58417" h="24" random_walk="3"/>
+			    <spot x="1682.9047" y="2280.263" z="164.84213" h="19" random_walk="3"/>
+			    <spot x="1762.2925" y="2285.1772" z="162.53314" h="63" random_walk="3"/>
+			    <spot x="1765.4929" y="2233.1333" z="161.52808" h="10" random_walk="3"/>
+			</spawn>
+        </rift_spawn>
+		
+		<!-- Not Used -->
+        <rift_spawn id="2280">
+        </rift_spawn>
+		<!-- Not Used -->
+        <rift_spawn id="2281">
+        </rift_spawn>
+		<!-- Not Used -->
+        <rift_spawn id="2282">
+        </rift_spawn>
+		<!-- Not Used -->
+        <rift_spawn id="2283">
+        </rift_spawn>
+		<!-- Not Used -->
+        <rift_spawn id="2284">
+        </rift_spawn>
+		<!-- Not Used -->
+        <rift_spawn id="2285">
+        </rift_spawn>
+	</spawn_map>
+</spawns>

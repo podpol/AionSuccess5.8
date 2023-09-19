@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	[R.V.R Heiron/Beluslan 4.9.1]
+	"Brigade General's Urgent Order"
+	
+	[마족 함선 침공 5.0]
+	"Warship Invasion"
+	"Heavy Tetran/Kenovikan"
+	"Artifact Bonus"
+	Made By (Aion-Unique)
+ -->
+<rvr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rvr.xsd">
+	<!-- Brigade General's Urgent Order [Heiron] -->
+    <rvr_location id="1"/>
+    <!-- Brigade General's Urgent Order [Beluslan] -->
+	<rvr_location id="2"/>
+	<!-- Warship Invasion [Iluma] -->
+	<rvr_location id="3"/>
+	<!-- Warship Invasion [Norsvold] -->
+	<rvr_location id="4"/>
+	<!-- Heavy Tetran [Iluma] -->
+	<rvr_location id="5"/>
+	<!-- Kenovikan [Norsvold] -->
+	<rvr_location id="6"/>
+	<!-- Artifact Bonus [Iluma] -->
+	<rvr_location id="7"/>
+	<!-- Artifact Bonus [Norsvold] -->
+	<rvr_location id="8"/>
+</rvr>

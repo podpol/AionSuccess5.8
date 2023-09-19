@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Rift エルテネン 3.9
+	Made By (Aion-Unique)
+ -->
+<spawns>
+	<spawn_map map_id="210020000">
+		<!-- Rift -->
+		<spawn npc_id="700137" handler="RIFT">
+			<spot x="224.042" y="2934.95" z="155.500" anchor="ELTNEN_AM"/>
+			<spot x="777.936" y="1947.14" z="290.717" anchor="ELTNEN_BM"/>
+			<spot x="1629.42" y="1762.11" z="345.332" anchor="ELTNEN_CM"/>
+			<spot x="1024.32" y="61.0130" z="316.938" anchor="ELTNEN_DM"/>
+			<spot x="1532.21" y="491.778" z="361.095" anchor="ELTNEN_EM"/>
+			<spot x="2213.28" y="2604.72" z="270.420" anchor="ELTNEN_FM"/>
+			<spot x="2177.84" y="556.885" z="434.354" anchor="ELTNEN_GM"/>
+			<spot x="719.325" y="2777.03" z="259.084" anchor="ELTNEN_AS"/>
+			<spot x="445.553" y="1292.31" z="283.047" anchor="ELTNEN_BS"/>
+			<spot x="1470.21" y="2446.05" z="288.589" anchor="ELTNEN_CS"/>
+			<spot x="93.1560" y="246.245" z="273.630" anchor="ELTNEN_DS"/>
+			<spot x="2586.27" y="651.752" z="463.625" anchor="ELTNEN_GS"/>
+			<spot x="1329.67" y="337.576" z="396.786" anchor="ELTNEN_ES"/>
+			<spot x="2295.90" y="2278.78" z="294.760" anchor="ELTNEN_FS"/>
+		</spawn>
+		
+		<!-- [Manduri Forest] -->
+        <rift_spawn id="2220">
+		    <!-- Barricade -->
+		    <spawn npc_id="219596" respawn_time="295">
+			    <spot x="513.83496" y="2384.1106" z="212.31718" entity_id="2150"/>
+			    <spot x="514.34485" y="2392.4832" z="211.39398" entity_id="2151"/>
+				<spot x="849.53375" y="2352.5457" z="219.60437" entity_id="2152"/>
+			    <spot x="842.03473" y="2349.7783" z="219.74432" entity_id="2153"/>
+				<spot x="657.87280" y="2386.2400" z="209.70953" entity_id="2415"/>
+			    <spot x="657.36292" y="2377.8674" z="209.56082" entity_id="2416"/>
+			</spawn>
+			<!-- Eltnen Sentinel
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="296982" respawn_time="295">
+			    <spot x="516.1416" y="2393.3088" z="210.71245" h="51"/>
+				<spot x="514.908" y="2385.7698" z="211.31253" h="64"/>
+				<spot x="659.76086" y="2386.9146" z="208.65489" h="53"/>
+                <spot x="659.1416" y="2376.8838" z="208.42865" h="66"/>
+				<spot x="851.4837" y="2352.4084" z="218.8172" h="42"/>
+                <spot x="840.69293" y="2348.2266" z="219.01498" h="31"/>
+			</spawn>
+			<!-- Eltnen Elite Templar
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209524" respawn_time="295">
+			    <spot x="515.4262" y="2383.1926" z="211.84708" h="66"/>
+				<spot x="658.17" y="2379.6997" z="208.48938" h="66"/>
+				<spot x="843.7442" y="2348.5664" z="219.0542" h="32"/>
+			</spawn>
+			<!-- Eltnen Elite Sorcerer
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209527" respawn_time="295">
+			    <spot x="514.8994" y="2390.4587" z="210.66751" h="51"/>
+				<spot x="658.5543" y="2384.3967" z="208.7055" h="52"/>
+				<spot x="848.9972" y="2350.508" z="218.99881" h="41"/>
+			</spawn>
+			<!-- Elyos Field Gun -->
+	        <spawn npc_id="831338" respawn_time="295">
+			    <spot x="524.65094" y="2411.6084" z="210.58669" h="43"/>
+				<spot x="683.7448" y="2362.4397" z="207.59752" h="54"/>
+				<spot x="861.32513" y="2331.4836" z="226.97028" h="45"/>
+		    </spawn>
+        </rift_spawn>
+		
+		<!-- [Eiron Desert] -->
+        <rift_spawn id="2221">
+		    <!-- Barricade -->
+		    <spawn npc_id="219596" respawn_time="295">
+			    <spot x="515.72485" y="1182.7743" z="274.59091" entity_id="2154"/>
+			    <spot x="508.22583" y="1180.007" z="274.718230" entity_id="2155"/>
+			    <spot x="565.5769" y="1638.8076" z="248.923020" entity_id="2156"/>
+			    <spot x="571.61176" y="1643.9635" z="248.61043" entity_id="2157"/>
+			</spawn>
+			<!-- Eltnen Sentinel
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="296982" respawn_time="295">
+			    <spot x="517.7682" y="1182.5814" z="273.71365" h="42"/>
+                <spot x="506.97025" y="1178.7328" z="274.01483" h="32"/>
+			    <spot x="565.721" y="1636.8932" z="248.25926" h="50"/>
+                <spot x="573.5139" y="1643.0974" z="248.07027" h="38"/>
+			</spawn>
+			<!-- Eltnen Elite Templar
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209524" respawn_time="295">
+			    <spot x="509.80325" y="1178.83" z="274.02124" h="31"/>
+			    <spot x="567.33417" y="1639.3915" z="248.03087" h="50"/>
+			</spawn>
+			<!-- Eltnen Elite Sorcerer
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209527" respawn_time="295">
+			    <spot x="515.3571" y="1180.8182" z="273.82385" h="42"/>
+			    <spot x="570.80237" y="1642.1152" z="247.90353" h="37"/>
+			</spawn>
+			<!-- Elyos Field Gun -->
+	        <spawn npc_id="831338" respawn_time="295">
+			    <spot x="480.225433" y="1174.819702" z="276.211090" h="0"/>
+			    <spot x="579.09894" y="1653.993" z="247.81868" h="91"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Kaidan Mine] -->
+        <rift_spawn id="2222">
+		    <!-- Barricade -->
+		    <spawn npc_id="219596" respawn_time="295">
+			    <spot x="1099.174" y="2209.4038" z="240.026320" entity_id="2158"/>
+			    <spot x="1100.7566" y="2218.3232" z="240.27466" entity_id="2159"/>
+				<spot x="1428.2406" y="2125.2144" z="276.39896" entity_id="2160"/>
+			    <spot x="1436.2875" y="2129.4392" z="276.76270" entity_id="2161"/>
+				<spot x="1234.0261" y="2323.896" z="261.571590" entity_id="2170"/>
+			    <spot x="1242.2874" y="2324.1572" z="261.77902" entity_id="2171"/>
+			</spawn>
+			<!-- Eltnen Sentinel
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="296982" respawn_time="295">
+			    <spot x="1100.4095" y="2208.3398" z="238.99564" h="65"/>
+                <spot x="1102.3774" y="2219.0652" z="239.19157" h="50"/>
+				<spot x="1232.948" y="2325.3738" z="260.625" h="86"/>
+                <spot x="1243.5442" y="2325.7131" z="260.8465" h="94"/>
+				<spot x="1438.2748" y="2129.5195" z="276.17596" h="44"/>
+                <spot x="1427.0686" y="2123.6843" z="275.6457" h="35"/>
+			</spawn>
+			<!-- Eltnen Elite Templar
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209524" respawn_time="295">
+			    <spot x="1099.7583" y="2210.985" z="239.18657" h="65"/>
+				<spot x="1240.5834" y="2324.9414" z="260.75" h="94"/>
+				<spot x="1429.9921" y="2124.1047" z="275.84784" h="34"/>
+			</spawn>
+			<!-- Eltnen Elite Sorcerer
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209527" respawn_time="295">
+			    <spot x="1100.9452" y="2216.3657" z="239.16806" h="50"/>
+				<spot x="1235.8678" y="2324.8298" z="260.625" h="86"/>
+				<spot x="1436.1296" y="2127.405" z="276.10678" h="44"/>
+			</spawn>
+			<!-- Elyos Field Gun -->
+	        <spawn npc_id="831338" respawn_time="295">
+			    <spot x="1108.6309" y="2236.1743" z="239.53943" h="78"/>
+				<spot x="1213.5714" y="2327.6172" z="264.22607" h="105"/>
+				<spot x="1438.1837" y="2143.766" z="273.46164" h="42"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Kyola Temple] -->
+        <rift_spawn id="2224">
+		    <!-- Barricade -->
+		    <spawn npc_id="219596" respawn_time="295">
+			    <spot x="1069.0989" y="640.28314" z="306.78378" entity_id="2162"/>
+			    <spot x="1077.1458" y="644.50800" z="307.12338" entity_id="2163"/>
+				<spot x="1497.5981" y="836.01239" z="378.00754" entity_id="2164"/>
+			    <spot x="1495.156" y="844.12109" z="376.848630" entity_id="2165"/>
+				<spot x="1765.6201" y="1069.0256" z="413.26736" entity_id="2172"/>
+			    <spot x="1759.0054" y="1075.4941" z="411.84552" entity_id="2173"/>
+			</spawn>
+			<!-- Eltnen Sentinel
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="296982" respawn_time="295">
+			    <spot x="1079.0604" y="644.35455" z="306.2057" h="44"/>
+                <spot x="1067.9902" y="638.7032" z="305.87378" h="33"/>
+				<spot x="1494.5558" y="845.9674" z="375.90973" h="79"/>
+                <spot x="1498.8242" y="834.6387" z="377.45374" h="63"/>
+				<spot x="1759.0927" y="1077.4728" z="411.01398" h="74"/>
+                <spot x="1767.6207" y="1069.4282" z="412.6967" h="78"/>
+			</spawn>
+			<!-- Eltnen Elite Templar
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209524" respawn_time="295">
+			    <spot x="1070.9443" y="639.1792" z="306.16934" h="33"/>
+				<spot x="1498.4374" y="837.6929" z="376.94073" h="62"/>
+				<spot x="1765.2351" y="1070.915" z="412.29938" h="78"/>
+			</spawn>
+			<!-- Eltnen Elite Sorcerer
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209527" respawn_time="295">
+			    <spot x="1077.0115" y="642.50977" z="306.31128" h="44"/>
+				<spot x="1496.9144" y="844.3219" z="376.0" h="79"/>
+				<spot x="1761.0488" y="1075.4016" z="411.15924" h="76"/>
+			</spawn>
+			<!-- Elyos Field Gun -->
+	        <spawn npc_id="831338" respawn_time="295">
+			    <spot x="1083.1515" y="626.5627" z="308.625" h="39"/>
+				<spot x="1494.4823" y="851.7378" z="376.43707" h="74"/>
+				<spot x="1744.8903" y="1042.1393" z="412.1076" h="19"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Lepharist Bastion] -->
+        <rift_spawn id="2225">
+		    <!-- Barricade -->
+		    <spawn npc_id="219596" respawn_time="295">
+			    <spot x="2124.9131" y="2017.0859" z="389.23645" entity_id="2166"/>
+			    <spot x="2124.5979" y="2008.198" z="389.167720" entity_id="2167"/>
+			    <spot x="2326.9412" y="1637.4397" z="417.45856" entity_id="2168"/>
+			    <spot x="2320.3264" y="1643.9082" z="418.17255" entity_id="2169"/>
+			    <spot x="2113.7654" y="1623.6719" z="370.78757" entity_id="2174"/>
+			    <spot x="2120.5422" y="1620.926" z="370.771090" entity_id="2175"/>
+			</spawn>
+			<!-- Eltnen Sentinel
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="296982" respawn_time="295">
+			    <spot x="2126.6016" y="2018.0747" z="388.77072" h="55"/>
+                <spot x="2125.9858" y="2007.0789" z="388.44788" h="65"/>
+                <spot x="2320.0693" y="1645.9515" z="417.61288" h="75"/>
+                <spot x="2328.8198" y="1637.5239" z="416.95496" h="78"/>
+                <spot x="2112.0798" y="1622.7999" z="369.87" h="27"/>
+                <spot x="2120.949" y="1618.8243" z="369.75" h="17"/>
+			</spawn>
+			<!-- Eltnen Elite Templar
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209524" respawn_time="295">
+			    <spot x="2125.3335" y="2009.8737" z="388.5338" h="64"/>
+                <spot x="2326.4468" y="1639.2699" z="416.5998" h="78"/>
+                <spot x="2115.07" y="1622.1614" z="369.76007" h="28"/>
+			</spawn>
+			<!-- Eltnen Elite Sorcerer
+			<Eltnen Sentinels> -->
+		    <spawn npc_id="209527" respawn_time="295">
+			    <spot x="2125.8643" y="2015.2202" z="388.70758" h="54"/>
+                <spot x="2322.0776" y="1643.6433" z="417.063" h="75"/>
+                <spot x="2118.4702" y="1620.9669" z="369.75" h="17"/>
+			</spawn>
+			<!-- Elyos Field Gun -->
+	        <spawn npc_id="831338" respawn_time="295">
+			    <spot x="2338.243" y="1661.0625" z="418.9414" h="78"/>
+                <spot x="2139.7344" y="2018.0419" z="392.3086" h="65"/>
+                <spot x="2118.9817" y="1604.2848" z="369.92084" h="59"/>
+		    </spawn>
+        </rift_spawn>
+		
+		<!-- Not Used -->
+        <rift_spawn id="2223">
+        </rift_spawn>
+		<!-- Not Used -->
+        <rift_spawn id="2226">
+        </rift_spawn>
+	</spawn_map>
+</spawns>

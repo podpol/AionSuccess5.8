@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Rift モルヘイム 3.9
+	Made By (Aion-Unique)
+ -->
+<spawns>
+	<spawn_map map_id="220020000">
+		<!-- Rift -->
+		<spawn npc_id="700137" handler="RIFT">
+			<spot x="450.000" y="2350.000" z="439.000" anchor="MORHEIM_AM"/>
+			<spot x="750.000" y="920.0000" z="329.250" anchor="MORHEIM_BM"/>
+			<spot x="250.000" y="500.0000" z="436.250" anchor="MORHEIM_CM"/>
+			<spot x="1650.00" y="1400.000" z="124.000" anchor="MORHEIM_DM"/>
+			<spot x="1624.59" y="1119.290" z="187.130" anchor="MORHEIM_EM"/>
+			<spot x="2400.00" y="2300.000" z="108.000" anchor="MORHEIM_FM"/>
+			<spot x="3020.91" y="883.3438" z="362.875" anchor="MORHEIM_GM"/>
+			<spot x="745.420" y="1872.320" z="364.746" anchor="MORHEIM_AS"/>
+			<spot x="1364.66" y="1334.970" z="238.177" anchor="MORHEIM_BS"/>
+			<spot x="617.477" y="209.0700" z="518.337" anchor="MORHEIM_CS"/>
+			<spot x="1820.14" y="1309.380" z="21.6041" anchor="MORHEIM_DS"/>
+			<spot x="1559.14" y="2757.690" z="358.771" anchor="MORHEIM_ES"/>
+			<spot x="2613.38" y="2235.680" z="95.9590" anchor="MORHEIM_FS"/>
+			<spot x="2930.68" y="879.4900" z="370.009" anchor="MORHEIM_GS"/>
+		</spawn>
+		
+		<!-- [Morheim Snow Field] -->
+        <rift_spawn id="2120">
+		    <!-- Barricade -->
+		    <spawn npc_id="219599" respawn_time="295">
+			    <spot x="379.49734" y="2025.5945" z="475.91663" entity_id="2413"/>
+				<spot x="381.40088" y="2033.4779" z="475.97910" entity_id="2414"/>
+				<spot x="445.40231" y="1867.2537" z="417.25082" entity_id="4046"/>
+			    <spot x="452.15930" y="1872.7561" z="418.18253" entity_id="4048"/>
+				<spot x="776.60425" y="2032.6488" z="332.59952" entity_id="2415"/>
+			    <spot x="783.69257" y="2027.5427" z="332.21942" entity_id="2416"/>
+			</spawn>
+			<!-- Morheim Protector
+			<Morheim Protectors> -->
+		    <spawn npc_id="297016" respawn_time="295">
+			    <spot x="380.5329" y="2035.527" z="475.39935" h="111"/>
+				<spot x="377.83786" y="2023.9246" z="475.6811" h="1"/>
+				<spot x="443.2384" y="1868.1176" z="416.85214" h="101"/>
+                <spot x="451.93994" y="1874.7847" z="417.89233" h="109"/>
+				<spot x="783.5777" y="2025.2633" z="331.39465" h="15"/>
+                <spot x="774.6057" y="2032.0271" z="331.80267" h="20"/>
+			</spawn>
+			<!-- Morheim Elite Templar
+			<Morheim Protectors> -->
+		    <spawn npc_id="209539" respawn_time="295">
+			    <spot x="377.90674" y="2027.1151" z="475.52914" h="0"/>
+				<spot x="445.9816" y="1869.1293" z="416.55194" h="100"/>
+				<spot x="781.47217" y="2027.3185" z="331.1676" h="16"/>
+			</spawn>
+			<!-- Morheim Elite Sorcerer
+			<Morheim Protectors> -->
+		    <spawn npc_id="209542" respawn_time="295">
+			    <spot x="379.21414" y="2032.7517" z="475.29044" h="112"/>
+				<spot x="450.1733" y="1872.751" z="417.06772" h="107"/>
+				<spot x="777.277" y="2030.6562" z="331.30157" h="22"/>
+			</spawn>
+			<!-- Asmodian Field Gun -->
+			<spawn npc_id="831339" respawn_time="295">
+			    <spot x="365.85464" y="2031.9829" z="477.6341" h="117"/>
+				<spot x="440.58606" y="1879.2518" z="421.1563" h="104"/>
+				<spot x="770.10840" y="2014.2750" z="332.58386" h="19"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Salintus Desert] -->
+        <rift_spawn id="2121">
+		    <!-- Barricade -->
+		    <spawn npc_id="219599" respawn_time="295">
+			    <spot x="919.91071" y="1535.4880" z="240.52315" entity_id="2423"/>
+			    <spot x="926.99109" y="1540.7909" z="239.60455" entity_id="2424"/>
+				<spot x="956.26154" y="1224.5852" z="268.46603" entity_id="2421"/>
+			    <spot x="962.07202" y="1218.2484" z="268.85272" entity_id="2422"/>
+			</spawn>
+			<!-- Morheim Protector
+			<Morheim Protectors> -->
+		    <spawn npc_id="297016" respawn_time="295">
+			    <spot x="920.5006" y="1533.4065" z="240.55255" h="49"/>
+                <spot x="929.0539" y="1540.4889" z="239.13847" h="41"/>
+				<spot x="954.28033" y="1224.9344" z="267.72314" h="12"/>
+                <spot x="963.41754" y="1216.7395" z="267.99017" h="29"/>
+			</spawn>
+			<!-- Morheim Elite Templar
+			<Morheim Protectors> -->
+		    <spawn npc_id="209539" respawn_time="295">
+			    <spot x="926.60516" y="1538.8447" z="238.91727" h="41"/>
+				<spot x="960.4741" y="1216.9185" z="268.0" h="29"/>
+			</spawn>
+			<!-- Morheim Elite Sorcerer
+			<Morheim Protectors> -->
+		    <spawn npc_id="209542" respawn_time="295">
+			    <spot x="921.9239" y="1535.6459" z="239.52994" h="49"/>
+				<spot x="955.9008" y="1222.2311" z="267.85852" h="12"/>
+			</spawn>
+			<!-- Asmodian Field Gun -->
+			<spawn npc_id="831339" respawn_time="295">
+			    <spot x="936.34705" y="1525.8163" z="242.5574" h="45"/>
+				<spot x="950.30390" y="1209.0063" z="268.73022" h="18"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Salintus Rise] -->
+        <rift_spawn id="2122">
+		    <!-- Barricade -->
+		    <spawn npc_id="219599" respawn_time="295">
+			    <spot x="351.06799" y="608.25055" z="404.26117" entity_id="2417"/>
+			    <spot x="349.21927" y="618.49164" z="404.80057" entity_id="2418"/>
+				<spot x="679.72644" y="302.81787" z="497.87985" entity_id="2419"/>
+			    <spot x="687.85535" y="306.00977" z="498.32205" entity_id="2420"/>
+			</spawn>
+			<!-- Morheim Protector
+			<Morheim Protectors> -->
+		    <spawn npc_id="297016" respawn_time="295">
+			    <spot x="347.17944" y="619.1418" z="403.90622" h="9"/>
+                <spot x="349.21906" y="607.257" z="403.12738" h="114"/>
+				<spot x="678.33777" y="301.05896" z="497.34653" h="32"/>
+                <spot x="689.8669" y="305.64127" z="498.06097" h="41"/>
+			</spawn>
+			<!-- Morheim Elite Templar
+			<Morheim Protectors> -->
+		    <spawn npc_id="209539" respawn_time="295">
+			    <spot x="350.05164" y="610.13544" z="403.51694" h="115"/>
+				<spot x="687.5517" y="303.99042" z="497.29095" h="41"/>
+			</spawn>
+			<!-- Morheim Elite Sorcerer
+			<Morheim Protectors> -->
+		    <spawn npc_id="209542" respawn_time="295">
+			    <spot x="348.78043" y="616.5522" z="403.875" h="9"/>
+				<spot x="681.47614" y="301.5054" z="496.87732" h="33"/>
+			</spawn>
+			<!-- Asmodian Field Gun -->
+			<spawn npc_id="831339" respawn_time="295">
+			    <spot x="320.17264" y="617.0063" z="403.8129" h="0"/>
+				<spot x="664.4791" y="313.34982" z="497.71695" h="45"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Red Lava Cliff] -->
+        <rift_spawn id="2123">
+		    <!-- Barricade -->
+		    <spawn npc_id="219599" respawn_time="295">
+			    <spot x="1990.1537" y="2072.9226" z="222.84857" entity_id="2425"/>
+			    <spot x="1983.0732" y="2067.6199" z="221.79417" entity_id="2426"/>
+				<spot x="2172.4570" y="1947.2288" z="196.69701" entity_id="2427"/>
+			    <spot x="2179.5376" y="1952.5315" z="197.81540" entity_id="2428"/>
+			</spawn>
+			<!-- Morheim Protector
+			<Morheim Protectors> -->
+		    <spawn npc_id="297016" respawn_time="295">
+			    <spot x="1992.2982" y="2072.457" z="222.01865" h="42"/>
+                <spot x="1983.4415" y="2065.498" z="220.71509" h="48"/>
+				<spot x="2181.6655" y="1951.9655" z="196.66681" h="40"/>
+                <spot x="2172.8906" y="1945.6249" z="195.6621" h="52"/>
+			</spawn>
+			<!-- Morheim Elite Templar
+			<Morheim Protectors> -->
+		    <spawn npc_id="209539" respawn_time="295">
+			    <spot x="1989.8146" y="2070.6855" z="221.93398" h="42"/>
+				<spot x="2179.086" y="1950.6307" z="197.03943" h="39"/>
+			</spawn>
+			<!-- Morheim Elite Sorcerer
+			<Morheim Protectors> -->
+		    <spawn npc_id="209542" respawn_time="295">
+			    <spot x="1985.2826" y="2067.8445" z="220.94543" h="48"/>
+				<spot x="2174.8804" y="1947.678" z="196.57497" h="50"/>
+			</spawn>
+			<!-- Asmodian Field Gun -->
+			<spawn npc_id="831339" respawn_time="295">
+			    <spot x="1978.4717" y="2045.9778" z="221.09274" h="26"/>
+				<spot x="2188.3096" y="1941.4324" z="196.31618" h="47"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [The Crash Site] -->
+        <rift_spawn id="2124">
+		    <!-- Barricade -->
+		    <spawn npc_id="219599" respawn_time="295">
+			    <spot x="2182.8423" y="2926.8311" z="223.47145" entity_id="2429"/>
+			    <spot x="2189.9229" y="2932.1338" z="223.54085" entity_id="2430"/>
+			</spawn>
+			<!-- Morheim Protector
+			<Morheim Protectors> -->
+		    <spawn npc_id="297016" respawn_time="295">
+			    <spot x="2180.9028" y="2926.0806" z="222.50711" h="108"/>
+                <spot x="2190.4563" y="2934.1477" z="222.7584" h="100"/>
+			</spawn>
+			<!-- Morheim Elite Templar
+			<Morheim Protectors> -->
+		    <spawn npc_id="209539" respawn_time="295">
+			    <spot x="2182.9685" y="2928.6147" z="222.41342" h="108"/>
+			</spawn>
+			<!-- Morheim Elite Sorcerer
+			<Morheim Protectors> -->
+		    <spawn npc_id="209542" respawn_time="295">
+			    <spot x="2188.129" y="2932.4685" z="222.70479" h="101"/>
+			</spawn>
+			<!-- Asmodian Field Gun -->
+			<spawn npc_id="831339" respawn_time="295">
+			    <spot x="2193.3613" y="2912.8596" z="225.37874" h="11"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Klaw Habitat/Halabana Hot Springs] -->
+        <rift_spawn id="2125">
+		    <!-- Barricade -->
+		    <spawn npc_id="219599" respawn_time="295">
+			    <spot x="2483.4739" y="2722.9758" z="114.21937" entity_id="2431"/>
+			    <spot x="2489.5457" y="2728.2532" z="114.14526" entity_id="2432"/>
+				<spot x="2821.9265" y="2344.0042" z="131.10907" entity_id="2433"/>
+			    <spot x="2829.9807" y="2341.002" z="131.903790" entity_id="2434"/>
+			</spawn>
+			<!-- Morheim Protector
+			<Morheim Protectors> -->
+		    <spawn npc_id="297016" respawn_time="295">
+			    <spot x="2489.8235" y="2730.5298" z="113.5919" h="101"/>
+                <spot x="2481.2205" y="2722.6477" z="113.476" h="109"/>
+				<spot x="2832.0083" y="2341.1643" z="131.47038" h="78"/>
+                <spot x="2820.3105" y="2345.6653" z="130.4133" h="90"/>
+			</spawn>
+			<!-- Morheim Elite Templar
+			<Morheim Protectors> -->
+		    <spawn npc_id="209539" respawn_time="295">
+			    <spot x="2482.9092" y="2725.0552" z="112.9931" h="109"/>
+				<spot x="2823.2856" y="2345.3445" z="130.58086" h="92"/>
+			</spawn>
+			<!-- Morheim Elite Sorcerer
+			<Morheim Protectors> -->
+		    <spawn npc_id="209542" respawn_time="295">
+			    <spot x="2487.5354" y="2729.013" z="113.03789" h="101"/>
+				<spot x="2829.6182" y="2343.0588" z="131.29425" h="80"/>
+			</spawn>
+			<!-- Asmodian Field Gun -->
+			<spawn npc_id="831339" respawn_time="295">
+			    <spot x="2508.432" y="2710.2021" z="116.10797" h="58"/>
+				<spot x="2824.1636" y="2322.6797" z="124.835815" h="74"/>
+		    </spawn>
+        </rift_spawn>
+		
+        <!-- [Mist Mane Village] -->
+        <rift_spawn id="2126">
+		    <!-- Barricade -->
+		    <spawn npc_id="219599" respawn_time="295">
+			    <spot x="2440.9270" y="946.70154" z="208.19330" entity_id="2435"/>
+			    <spot x="2447.7935" y="945.13562" z="207.65036" entity_id="2436"/>
+			    <spot x="2097.1169" y="923.95099" z="214.30899" entity_id="2437"/>
+			    <spot x="2095.7427" y="932.09216" z="214.45657" entity_id="2438"/>
+			</spawn>
+			<!-- Morheim Protector
+			<Morheim Protectors> -->
+		    <spawn npc_id="297016" respawn_time="295">
+			    <spot x="2448.127" y="943.0879" z="206.45093" h="17"/>
+                <spot x="2439.4736" y="945.24536" z="207.0822" h="30"/>
+				<spot x="2093.6768" y="932.98425" z="213.60283" h="6"/>
+                <spot x="2095.7742" y="922.31824" z="213.4801" h="1"/>
+			</spawn>
+			<!-- Morheim Elite Templar
+			<Morheim Protectors> -->
+		    <spawn npc_id="209539" respawn_time="295">
+			    <spot x="2445.6272" y="944.82855" z="206.55179" h="17"/>
+                <spot x="2095.8577" y="925.4873" z="213.29094" h="2"/>
+			</spawn>
+			<!-- Morheim Elite Sorcerer
+			<Morheim Protectors> -->
+		    <spawn npc_id="209542" respawn_time="295">
+			    <spot x="2442.4458" y="945.48865" z="206.68608" h="30"/>
+                <spot x="2094.7847" y="930.26666" z="213.34262" h="6"/>
+			</spawn>
+			<!-- Asmodian Field Gun -->
+			<spawn npc_id="831339" respawn_time="295">
+                <spot x="2439.9812" y="961.0459" z="207.0608" h="4"/>
+				<spot x="2116.579" y="915.15045" z="211.7669" h="16"/>
+		    </spawn>
+        </rift_spawn>
+	</spawn_map>
+</spawns>

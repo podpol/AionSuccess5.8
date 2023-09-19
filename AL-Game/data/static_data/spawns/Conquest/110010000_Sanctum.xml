@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	The Shugo Emperor's Vault 4.7.5
+	Emperor Trillirunerk's Safe 4.9.1
+	Smoldering Fire Temple 5.1
+	Kumuki Cave 5.3
+	IDEvent_Def 5.6
+	Tiamaranta's Eye 5.8
+ -->
+<spawns>
+    <spawn_map map_id="110010000">
+		<!-- [The Shugo Emperor's Vault 4.7.5] -->
+		<conquest_spawn id="3">
+			<conquest_type ostate="CONQUEST">
+				<!-- The Shugo Emperor's Vault -->
+				<spawn npc_id="832920">
+				    <spot x="1502.2665" y="1511.7048" z="565.9418" h="60"/>
+				</spawn>
+				<!-- Indinerk Jonakak -->
+				<spawn npc_id="832921">
+				    <spot x="1498.8264" y="1511.6183" z="565.9401" h="61"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [Emperor Trillirunerk's Safe 4.9.1] -->
+		<conquest_spawn id="4">
+			<conquest_type ostate="CONQUEST">
+				<!-- Emperor Trillirunerk's Safe -->
+				<spawn npc_id="833737">
+				    <spot x="1502.2665" y="1511.7048" z="565.9418" h="60"/>
+				</spawn>
+				<!-- Indinerk Jonakak -->
+				<spawn npc_id="832921">
+				    <spot x="1498.8264" y="1511.6183" z="565.9401" h="61"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [Smoldering Fire Temple 5.1] -->
+		<conquest_spawn id="5">
+			<conquest_type ostate="CONQUEST">
+				<!-- Annaerunerk
+				<Smoldering Fire Temple> -->
+				<spawn npc_id="834162">
+				    <spot x="1502.2665" y="1511.7048" z="565.9418" h="60"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [Kumuki Cave 5.3] -->
+		<conquest_spawn id="6">
+			<conquest_type ostate="CONQUEST">
+			    <!-- Gretel The Mischievous -->
+			    <spawn npc_id="835094">
+				    <spot h="63" z="565.944" y="1514.0598" x="1500.618"/>
+				</spawn>
+			    <!-- Porglet -->
+				<spawn npc_id="835118">
+				    <spot h="58" z="565.94037" y="1511.7896" x="1498.8578"/>
+				</spawn>
+				<!-- Carriage To The Kumuki Cave -->
+				<spawn npc_id="835114">
+				    <spot x="1502.2665" y="1511.7048" z="565.9418" h="60"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [IDEvent_Def 5.6] -->
+		<conquest_spawn id="11">
+			<conquest_type ostate="CONQUEST">
+				<!-- IDEVENT_Def_LC1_Entrance_L -->
+				<spawn npc_id="836130">
+				    <spot h="60" z="565.94366" y="1508.947" x="1499.53"/>
+				</spawn>
+				<!-- IDEvent_Def_In_NPC -->
+				<spawn npc_id="836141">
+				    <spot x="1502.2665" y="1511.7048" z="565.9418" h="60"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+		<!-- [Tiamaranta's Eye 5.8] -->
+		<conquest_spawn id="13">
+			<conquest_type ostate="CONQUEST">
+				<!-- TDown_Start_L -->
+				<spawn npc_id="836441">
+				    <spot h="24" z="565.9791" y="1472.4058" x="1518.2234"/>
+				</spawn>
+				<!-- LC1_Yuritos_E -->
+				<spawn npc_id="836452">
+				    <spot h="20" z="565.8794" y="1477.3497" x="1512.8599"/>
+				</spawn>
+				<!-- TDown_M_Start_L -->
+				<spawn npc_id="836443">
+				    <spot h="96" z="565.9878" y="1551.3258" x="1517.9087"/>
+				</spawn>
+				<!-- LC1_Yuritos_M_E -->
+				<spawn npc_id="836453">
+				    <spot h="82" z="565.87836" y="1550.1813" x="1525.2592"/>
+				</spawn>
+			</conquest_type>
+			<conquest_type ostate="PEACE">
+			</conquest_type>
+		</conquest_spawn>
+    </spawn_map>
+</spawns>
