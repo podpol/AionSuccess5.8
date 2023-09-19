@@ -1,0 +1,76 @@
+/*
+ * =====================================================================================*
+ * This file is part of Aion-Unique (Aion-Unique Home Software Development)             *
+ * Aion-Unique Development is a closed Aion Project that use Old Aion Project Base      *
+ * Like Aion-Lightning, Aion-Engine, Aion-Core, Aion-Extreme, Aion-NextGen, ArchSoft,   *
+ * Aion-Ger, U3J, Encom And other Aion project, All Credit Content                      *
+ * That they make is belong to them/Copyright is belong to them. And All new Content    *
+ * that Aion-Unique make the copyright is belong to Aion-Unique                         *
+ * You may have agreement with Aion-Unique Development, before use this Engine/Source   *
+ * You have agree with all of Term of Services agreement with Aion-Unique Development   *
+ * =====================================================================================*
+ */
+package com.aionemu.gameserver.services.svsservice;
+
+import com.aionemu.gameserver.model.svs.SvsLocation;
+import com.aionemu.gameserver.model.svs.SvsStateType;
+import com.aionemu.gameserver.services.SvsService;
+
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/**
+ * @author Rinzler (Encom)
+ */
+
+public abstract class Panesterra<PL extends SvsLocation>
+{
+	private boolean started;
+	private final PL svsLocation;
+	protected abstract void stopSvs();
+	protected abstract void startSvs();
+	private final AtomicBoolean finished = new AtomicBoolean();
+	
+	public Panesterra(PL svsLocation) {
+		this.svsLocation = svsLocation;
+	}
+	
+	public final void start() {
+		boolean doubleStart = false;
+		synchronized (this) {
+			if (started) {
+				doubleStart = true;
+			} else {
+				started = true;
+			}
+		} if (doubleStart) {
+			return;
+		}
+		startSvs();
+	}
+	
+	public final void stop() {
+		if (finished.compareAndSet(false, true)) {
+			stopSvs();
+		}
+	}
+	
+	protected void spawn(SvsStateType type) {
+		SvsService.getInstance().spawn(getSvsLocation(), type);
+	}
+	
+	protected void despawn() {
+		SvsService.getInstance().despawn(getSvsLocation());
+	}
+	
+	public boolean isFinished() {
+		return finished.get();
+	}
+	
+	public PL getSvsLocation() {
+		return svsLocation;
+	}
+	
+	public int getSvsLocationId() {
+		return svsLocation.getId();
+	}
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Vortex ブルストホーニン 3.9
+	Volatile Rift ブルストホーニン 4.9
+	Made By (Ghostfur) (Encom)
+ -->
+<rift_schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="rift_schedule.xsd">
+	<!-- ELTNEN -->
+	<rift id="210020000">
+		<open schedule="0 0 13 ? * MON,FRI" spawn="true"/>
+        <open schedule="0 0 17 ? * MON,THU,SAT" spawn="true"/>
+        <open schedule="0 0 15 ? * SUN" spawn="true"/>
+	</rift>
+	<!-- HEIRON -->
+	<rift id="210040000">
+		<open schedule="0 0 15 ? * MON,THU" spawn="true"/>
+        <open schedule="0 0 1 ? * MON,THU,SAT" spawn="true"/>
+        <open schedule="0 0 19 ? * MON,FRI,SUN" spawn="true"/>
+	</rift>
+	<!-- INGGISON -->
+	<rift id="210130000">
+	    <open schedule="0 0 1,13 ? * SAT" spawn="true"/>
+		<open schedule="0 0 16 ? * MON,FRI" spawn="true"/>
+		<open schedule="0 0 3,19 ? * SUN" spawn="true"/>
+		<open schedule="0 0 11,23 ? * MON,THU" spawn="true"/>
+	</rift>
+	<!-- CYGNEA -->
+	<rift id="210070000">
+	    <open schedule="0 0 0-23 ? * * *" spawn="true"/>
+		<open schedule="0 0 19 ? * MON,WED,SAT" spawn="true"/>
+		<open schedule="0 0 15 ? * SUN" spawn="true"/>
+	</rift>
+	<!-- ILUMA -->
+	<rift id="210100000">
+		<open schedule="0 0 0-23 ? * * *" spawn="true"/>
+	</rift>
+	
+	<!-- MORHEIM -->
+	<rift id="220020000">
+		<open schedule="0 0 13 ? * TUE,THU" spawn="true"/>
+        <open schedule="0 0 17 ? * TUE,FRI,SUN" spawn="true"/>
+        <open schedule="0 0 15 ? * SAT" spawn="true"/>
+	</rift>
+	<!-- BELUSLAN -->
+	<rift id="220040000">
+		<open schedule="0 0 1,15 ? * TUE,FRI" spawn="true"/>
+        <open schedule="0 0 19 ? * TUE,THU,SAT" spawn="true"/>
+        <open schedule="0 0 1 ? * SUN" spawn="true"/>
+	</rift>
+	<!-- GELKMAROS -->
+	<rift id="220140000">
+	    <open schedule="0 0 1,13 ? * SUN" spawn="true"/>
+		<open schedule="0 0 16 ? * TUE,THU" spawn="true"/>
+		<open schedule="0 0 3,19 ? * SAT" spawn="true"/>
+		<open schedule="0 0 11,23 ? * TUE,FRI" spawn="true"/>
+	</rift>
+	<!-- ENSHAR -->
+	<rift id="220080000">
+		<open schedule="0 0 0-23 ? * * *" spawn="true"/>
+		<open schedule="0 0 19 ? * TUE,THU,SUN" spawn="true"/>
+		<open schedule="0 0 15 ? * SAT" spawn="true"/>
+	</rift>
+	<!-- NORSVOLD -->
+	<rift id="220110000">
+		<open schedule="0 0 0-23 ? * * *" spawn="true"/>
+	</rift>
+</rift_schedule>

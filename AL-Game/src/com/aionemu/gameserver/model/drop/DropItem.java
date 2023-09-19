@@ -1,0 +1,193 @@
+/*
+ * =====================================================================================*
+ * This file is part of Aion-Unique (Aion-Unique Home Software Development)             *
+ * Aion-Unique Development is a closed Aion Project that use Old Aion Project Base      *
+ * Like Aion-Lightning, Aion-Engine, Aion-Core, Aion-Extreme, Aion-NextGen, ArchSoft,   *
+ * Aion-Ger, U3J, Encom And other Aion project, All Credit Content                      *
+ * That they make is belong to them/Copyright is belong to them. And All new Content    *
+ * that Aion-Unique make the copyright is belong to Aion-Unique                         *
+ * You may have agreement with Aion-Unique Development, before use this Engine/Source   *
+ * You have agree with all of Term of Services agreement with Aion-Unique Development   *
+ * =====================================================================================*
+ */
+package com.aionemu.gameserver.model.drop;
+
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+
+/**
+ * @author ATracer
+ */
+public class DropItem {
+
+	private int index = 0;
+	private long count = 0;
+	private Drop dropTemplate;
+	private int playerObjId = 0;
+	private boolean isFreeForAll = false;
+	private long highestValue = 0;
+	private Player winningPlayer = null;
+	private boolean isItemWonNotCollected = false;
+	private boolean isDistributeItem = false;
+	private int npcObj;
+
+	private int optionalSocket = 0;
+	
+	public DropItem(Drop dropTemplate) {
+		this.dropTemplate = dropTemplate;
+		ItemTemplate template = dropTemplate.getItemTemplate();
+		int optionalBonus = template.getOptionSlotBonus();
+		if (optionalBonus != 0) {
+			optionalSocket = -1;
+		}
+	}
+
+	/**
+	 * Regenerates item count upon each call // TODO input parameters - based on attacker stats // TODO more precise
+	 * calculations (non-linear)
+	 */
+	public void calculateCount() {
+		count = Rnd.get(dropTemplate.getMinAmount(), dropTemplate.getMaxAmount());
+	}
+
+	/**
+	 * @return the index
+	 */
+	public int getIndex() {
+		return index;
+	}
+
+	/**
+	 * @param index
+	 *          the index to set
+	 */
+	public void setIndex(int index) {
+		this.index = index;
+	}
+
+	/**
+	 * @return the count
+	 */
+	public long getCount() {
+		return count;
+	}
+
+	/**
+	 * @param count
+	 */
+	public void setCount(long count) {
+		this.count = count;
+	}
+
+	/**
+	 * @return the dropTemplate
+	 */
+	public Drop getDropTemplate() {
+		return dropTemplate;
+	}
+
+	/**
+	 * @return the playerObjId
+	 */
+	public int getPlayerObjId() {
+		return playerObjId;
+	}
+
+	/**
+	 * @param playerObjId
+	 *          the playerObjId to set
+	 */
+	public void setPlayerObjId(int playerObjId) {
+		this.playerObjId = playerObjId;
+	}
+
+	/**
+	 * @param isFreeForAll
+	 *          to set
+	 */
+	public void isFreeForAll(boolean isFreeForAll) {
+		this.isFreeForAll = isFreeForAll;
+	}
+
+	/**
+	 * @return isFreeForAll
+	 */
+	public boolean isFreeForAll() {
+		return isFreeForAll;
+	}
+
+	/**
+	 * @return highestValue
+	 */
+	public long getHighestValue() {
+		return highestValue;
+	}
+
+	/**
+	 * @param highestValue
+	 *          to set
+	 */
+	public void setHighestValue(long highestValue) {
+		this.highestValue = highestValue;
+	}
+
+	/**
+	 * @param WinningPlayer
+	 *          to set
+	 */
+	public void setWinningPlayer(Player winningPlayer) {
+		this.winningPlayer = winningPlayer;
+
+	}
+
+	/**
+	 * @return winningPlayer
+	 */
+	public Player getWinningPlayer() {
+		return winningPlayer;
+	}
+
+	/**
+	 * @param isItemWonNotCollected
+	 *          to set
+	 */
+	public void isItemWonNotCollected(boolean isItemWonNotCollected) {
+		this.isItemWonNotCollected = isItemWonNotCollected;
+	}
+
+	/**
+	 * @return isItemWonNotCollected
+	 */
+	public boolean isItemWonNotCollected() {
+		return isItemWonNotCollected;
+	}
+
+	/**
+	 * @param isDistributeItem
+	 *          to set
+	 */
+	public void isDistributeItem(boolean isDistributeItem) {
+		this.isDistributeItem = isDistributeItem;
+	}
+
+	/**
+	 * @return isDistributeItem
+	 */
+	public boolean isDistributeItem() {
+		return isDistributeItem;
+	}
+
+	public int getNpcObj() {
+		return npcObj;
+	}
+
+	public void setNpcObj(int npcObj) {
+		this.npcObj = npcObj;
+	}
+	
+	public int getOptionalSocket() {
+		return optionalSocket;
+	}
+
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yguard version="1.5">
+<!--
+  yGuard Bytecode Obfuscator, v2.5.4, a Product of yWorks GmbH - http://www.yworks.com
+
+  Logfile created on Tue Dec 25 00:13:46 JST 2018
+
+  Jar file to be obfuscated:           yguard_temp_4366452246652756351.jar
+  Target Jar file for obfuscated code: AU-Game.jar
+
+-->
+<!--
+  Memory in use after class data structure built: 71063376 bytes
+  Total memory available                        : 649068544 bytes
+-->
+
+<!-- An exception has occured.
+com.yworks.yguard.obf.NoSuchMappingException: No mapping found for: Class javax.annotation.Nonnull
+com.yworks.yguard.obf.NoSuchMappingException: No mapping found for: Class javax.annotation.Nonnull
+	at com.yworks.yguard.obf.ClassTree.mapClass(Unknown Source)
+	at com.yworks.yguard.obf.classfile.ClassFile.remapAnnotation(Unknown Source)
+	at com.yworks.yguard.obf.classfile.ClassFile.remapAnnotations(Unknown Source)
+	at com.yworks.yguard.obf.classfile.ClassFile.remap(Unknown Source)
+	at com.yworks.yguard.obf.GuardDB.remapTo(Unknown Source)
+	at com.yworks.yguard.ObfuscatorTask.execute(Unknown Source)
+	at com.yworks.yguard.YGuardTask.execute(Unknown Source)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1376)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1260)
+	at org.apache.tools.ant.Main.runBuild(Main.java:854)
+	at org.apache.tools.ant.Main.startAnt(Main.java:236)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:285)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:112)
+-->
+</yguard>
